@@ -1,7 +1,8 @@
 +++
 title = 'Features'
 date = 2024-07-19T13:52:10+10:00
-draft = true
+draft = false
+url = '/features'
 +++
 
 ### Secure Central Management

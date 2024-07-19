@@ -1,7 +1,8 @@
 +++
 title = 'Hardened Security'
 date = 2024-07-19T13:50:32+10:00
-draft = true
+draft = false
+url = '/security'
 +++
 
 The PrisonPC Secure Prisoner Interactive Learning System solution has been designed from the ground-up with security as its foundation. It provides an extremely secure and fully functional computer solution for prisoners, denying access to insecure devices (e.g., web-cams, WiFi, USB storage, etc) while enabling education providers to deliver numeracy and literacy training as well as academic and vocational programmes to prisoners.
