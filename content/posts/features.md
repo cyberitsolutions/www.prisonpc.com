@@ -1,9 +1,9 @@
-+++
-title = 'Features'
-date = 2024-07-19T13:52:10+10:00
-draft = false
-url = '/features'
-+++
+---
+date: "2024-07-19T13:52:10+10:00"
+draft: false
+title: Features
+url: /features
+---
 
 ### Secure Central Management
 
