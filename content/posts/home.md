@@ -55,7 +55,7 @@ Consolidates television, radio, stereo, gaming consoles, and similar devices int
 
 ### PrisonPC Introduction
 
-Play Video
+{{< youtube 8VOYS1jJ8a8 >}}
 
 [Alternative video location (if Youtube is blocked by your agency).](/direct-introduction)
 
