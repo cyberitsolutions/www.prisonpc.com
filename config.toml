@@ -1,5 +1,5 @@
 baseURL = 'https://prisonpc.com/'
-languageCode = 'en-us'
+languageCode = 'en-au'
 title = 'PrisonPC'
 #theme = 'pehtheme-hugo'
 theme = 'up-business-theme'
@@ -16,7 +16,6 @@ images = [
     "images/carousel_3.jpg",
     "images/carousel_4.jpg",
 ]
-logo = "arrow-up.png"
 location = [
     "P.O.Box 5178, Hughesdale, Vic 3166, Australia",
     "Cyber IT Solutions Pty Ltd, Suite 49, Erasmus Business Park, 45 Riversdale Road, Hawthorn, Victoria 3122, Australia"
