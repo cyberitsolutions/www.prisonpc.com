@@ -1,4 +1,88 @@
 baseURL = 'https://prisonpc.com/'
 languageCode = 'en-us'
 title = 'PrisonPC'
-theme = 'pehtheme-hugo'
+#theme = 'pehtheme-hugo'
+theme = 'up-business-theme'
+
+[params]
+    title = "PrisonPC"
+    description = "PrisonPC"
+
+# ----------
+
+    images = ["images/hero-image.png"]
+    logo = "arrow-up.png"
+    location = ["3891 Ranchview Dr. Richardson, California 62639", "4517 Washington Ave. Manchester, Kentucky 39495"]
+    contact = ["trungkienspktnd@gamail.com", "207.555.0119"]
+    copyright = "© 2022 Up Business All Rights Reserved"
+    [params.favicons]
+    themeColor = "#FFFFFF"
+    backgroundColor = "#FFFFFF"
+    faviconColor = "#000000"
+    [params.social]
+    dribbble = "#"
+    instagram = "#"
+    facebook = "#"
+    twitter = "#"
+
+    [menus]
+
+    [[menus.main]]
+    name = "Home"
+    url = "/#hero"
+    weight = 1
+
+    [[menus.main]]
+    name = "How we work"
+    url = "/#"
+    weight = 2
+
+    [[menus.main]]
+    name = "Our team"
+    url = "/#"
+    weight = 3
+
+    [[menus.main]]
+    name = "Pricing"
+    url = "/#"
+    weight = 4
+
+    [[menus.main]]
+    name = "Blog"
+    url = "/blog"
+    weight = 5
+
+    [[menus.buttons]]
+    name = "Book a call"
+    url = "/#"
+    weight = 5
+    pre = "btn btn-primary text-light"
+
+    [[menus.footer]]
+    name = "Home"
+    url = "/#hero"
+    weight = 1
+
+    [[menus.footer]]
+    name = "How we work"
+    url = "/#"
+    weight = 2
+
+    [[menus.footer]]
+    name = "Our team"
+    url = "/#"
+    weight = 3
+
+    [[menus.footer]]
+    name = "Pricing"
+    url = "/#"
+    weight = 4
+
+    [[menus.footer]]
+    name = "Blog"
+    url = "/blog"
+    weight = 5
+
+    [taxonomies]
+    series = "series"
+    tags = "tags"
