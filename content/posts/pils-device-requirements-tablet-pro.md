@@ -5,7 +5,7 @@ draft: false
 url: pils-device-requirements-tablet-pro
 ---
 
-##### Mandatory Requirements
+## Mandatory Requirements
 
 1. 20cm (8") to 25cm (10") display. No particular size in this range is consistently preferred, each facility may have their own preference.
 2. Glass fascia. Vendors are encouraged to consider the option of stronger tempered glass as some correctional facilities consider this a valuable feature.
@@ -23,7 +23,7 @@ url: pils-device-requirements-tablet-pro
 14. Must support [Android Enterprise Enrolment](https://www.android.com/intl/en_au/enterprise/enrollment/).
 15. Must support [Factory Reset Protection](https://www.samsung.com/nz/support/mobile-devices/what-is-google-frp/).
 
-###### Valuable (non-mandatory) Features
+### Valuable (non-mandatory) Features
 
 1. No accessible mass storage slots (e.g. SD-Card reader), excepting the mandatory USB ports for HID devices or power. To reduce manufacturing complexity and cost it is acceptable to include these connectors but leave the device disconnected from the controller.
 2. Transparent chassis, with [suitable electromagnetic shielding](https://en.wikipedia.org/wiki/Electromagnetic_compatibility). For high-security facilities, vendors are encouraged to consider an optional transparent chassis.

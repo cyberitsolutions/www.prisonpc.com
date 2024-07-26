@@ -5,7 +5,7 @@ draft: false
 url: pils-device-requirements-desktop-pr
 ---
 
-##### Mandatory Requirements
+## Mandatory Requirements
 
 1. 55cm (21") or larger display.
 2. All-in-One chassis.
@@ -31,7 +31,7 @@ url: pils-device-requirements-desktop-pr
 22. Any firmware factory default, optimised default, or similar settings, must conform to these requirements. Rationale is to ensure users can't reset to insecure settings.
 23. Firmware must not allow updates to be applied by removable media. Any firmware updates can be applied by Cyber IT Solutions over the network via PXE (netboot).
 
-###### Valuable (non-mandatory) Features
+### Valuable (non-mandatory) Features
 
 1. No accessible mass storage slots (e.g. SD-Card reader), excepting the mandatory USB ports for HID devices. It is sufficient to leave any such device disconnected from the controller.
 2. Intel NIC and Intel GPU, as these are most compatible with PrisonPC.
