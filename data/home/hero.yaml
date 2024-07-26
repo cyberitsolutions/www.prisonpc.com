@@ -2,7 +2,8 @@ enabled: true
 id: "hero"
 
 content:
-  title: "**PrisonPC** Secure Prisoner Interactive Learning System"
+  title: "**PrisonPC**"
+  subtitle: "Secure Prisoner Interactive Learning System"
   text: "The PrisonPC secure Prisoner Interactive Learning System solution delivers the most secure and fully functional platform for delivery of educational content, IPTV, communication, entertainment, and managed rehabilitation."
 
   buttonPrimary:
