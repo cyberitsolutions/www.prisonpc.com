@@ -20,7 +20,6 @@ location = [
     "P.O.Box 5178, Hughesdale, Vic 3166, Australia",
     "Cyber IT Solutions Pty Ltd, Suite 49, Erasmus Business Park, 45 Riversdale Road, Hawthorn, Victoria 3122, Australia"
 ]
-contact = ["info@prisonpc.com", "+613 7019 4225"]
 copyright = "© 2024 Cyber IT Solutions Pty Ltd"
 [params.favicons]
 themeColor = "#FFFFFF"
@@ -31,6 +30,13 @@ faviconColor = "#000000"
 #instagram = "#"
 #facebook = "#"
 #twitter = "#"
+
+[[params.contact]]
+content = "info@prisonpc.com"
+url = "mailto:info@prisonpc.com"
+[[params.contact]]
+content = "+613 7019 4225"
+url = "tel:+61370194225"
 
 [menus]
 
