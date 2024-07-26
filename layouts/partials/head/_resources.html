@@ -1,0 +1,14 @@
+<!-- Load Shared SCSS -->
+{{- $sharedSCSS := resources.Get "scss/shared/shared.scss" -}}
+{{- $sharedSCSS := $sharedSCSS | resources.ToCSS (dict "outputStyle" "compressed" "includePaths" (slice "assets")) -}}
+{{- $sharedSCSS := $sharedSCSS | resources.ExecuteAsTemplate "main.scss" . -}}
+
+<!-- Load Shared JS -->
+{{- $sharedJS := resources.Get "js/shared/shared.js" -}}
+{{- $sharedJS := $sharedJS | js.Build (dict "minify" "true") -}}
+
+{{- $stylesheet := $sharedSCSS.Content | resources.FromString "css/style.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $stylesheet.RelPermalink }}" type="text/css" integrity="{{ $stylesheet.Data.Integrity }}" />
+
+{{- $script := $sharedJS.Content | safeJS | resources.FromString "js/script.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>

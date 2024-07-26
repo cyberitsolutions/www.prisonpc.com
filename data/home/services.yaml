@@ -2,26 +2,47 @@ enabled: true
 id: "services"
 
 content:
-  title: "Our main services"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
+  title: "Features"
+  text: ""
   cards:
     - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
+      title: "Central Management"
+      text: "Authorised staff can manage site policies and inmate activities from a secure central location, confident that inmates cannot circumvent policy or evade monitoring."
       button:
         label: "Learn more"
-        url: "#"
+        url: "features#secure-central-management"
 
     - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
+      title: "Integrated IPTV and Media"
+      text: "Standard free-to-air television, in-house, cable, and audio content is distributed to the inmates' computers, enabling them to select and view individual channels or stations."
       button:
         label: "Learn more"
-        url: "#"
+        url: "features#integratediptv-and-media"
 
     - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
+      title: "Filtered Web and Email"
+      text: "Providing inmates with restricted access to web and email resources enables correctional facilities to manage the reintegration of inmates as they approach their release date. "
       button:
         label: "Learn more"
-        url: "#"
+        url: "features#filtered-web-and-email"
+
+    - image: "images/services-web-development.png"
+      title: "Print Management"
+      text: "All printed documents are marked with clear identification of who printed the document and electronic copies are automatically retained for later staff review."
+      button:
+        label: "Learn more"
+        url: "features#print-management"
+
+    - image: "images/services-web-development.png"
+      title: "Content Delivery"
+      text: "PrisonPC facilitates the secure delivery of informational and educational content from on-line sources and through in-house education providers."
+      button:
+        label: "Learn more"
+        url: "features#content-delivery"
+
+    - image: "images/services-web-development.png"
+      title: "Consolidated In-cell Device"
+      text: "Consolidates television, radio, stereo, gaming consoles, and similar devices into a single unit, reducing costs and opportunity for inmates to hide contraband."
+      button:
+        label: "Learn more"
+        url: "features#consolidated-device"

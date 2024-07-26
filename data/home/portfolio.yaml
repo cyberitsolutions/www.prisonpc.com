@@ -1,4 +1,4 @@
-enabled: true
+enabled: false
 id: "portfolio"
 
 content:
@@ -7,7 +7,7 @@ content:
     title: "We developed an eCommerce website"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
 
-    buttons: 
+    buttons:
       - label: "See live"
         url: "#"
 
@@ -19,7 +19,7 @@ content:
     title: "We developed an eCommerce website"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
 
-    buttons: 
+    buttons:
       - label: "See live"
         url: "#"
 
@@ -31,7 +31,7 @@ content:
     title: "We developed an eCommerce website"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
 
-    buttons: 
+    buttons:
       - label: "See live"
         url: "#"
 

@@ -5,84 +5,92 @@ title = 'PrisonPC'
 theme = 'up-business-theme'
 
 [params]
-    title = "PrisonPC"
-    description = "PrisonPC"
+title = "PrisonPC"
+description = "Secure Prisoner Interactive Learning System"
 
 # ----------
 
-    images = ["images/hero-image.png"]
-    logo = "arrow-up.png"
-    location = ["3891 Ranchview Dr. Richardson, California 62639", "4517 Washington Ave. Manchester, Kentucky 39495"]
-    contact = ["trungkienspktnd@gamail.com", "207.555.0119"]
-    copyright = "© 2022 Up Business All Rights Reserved"
-    [params.favicons]
-    themeColor = "#FFFFFF"
-    backgroundColor = "#FFFFFF"
-    faviconColor = "#000000"
-    [params.social]
-    dribbble = "#"
-    instagram = "#"
-    facebook = "#"
-    twitter = "#"
+images = [
+    "images/carousel_1.jpg",
+    "images/carousel_2.jpg",
+    "images/carousel_3.jpg",
+    "images/carousel_4.jpg",
+]
+logo = "arrow-up.png"
+location = [
+    "P.O.Box 5178, Hughesdale, Vic 3166, Australia",
+    "Cyber IT Solutions Pty Ltd, Suite 49, Erasmus Business Park, 45 Riversdale Road, Hawthorn, Victoria 3122, Australia"
+]
+contact = ["info@prisonpc.com", "+613 7019 4225"]
+copyright = "© 2024 Cyber IT Solutions PTY Ltd"
+[params.favicons]
+themeColor = "#FFFFFF"
+backgroundColor = "#FFFFFF"
+faviconColor = "#000000"
+[params.social]
+#dribbble = "#"
+#instagram = "#"
+#facebook = "#"
+#twitter = "#"
 
-    [menus]
+[menus]
 
-    [[menus.main]]
-    name = "Home"
-    url = "/#hero"
-    weight = 1
+[[menus.main]]
+name = "Home"
+url = "/#hero"
+weight = 1
 
-    [[menus.main]]
-    name = "How we work"
-    url = "/#"
-    weight = 2
+[[menus.main]]
+name = "Business Drivers"
+url = "/business-drivers"
+weight = 2
 
-    [[menus.main]]
-    name = "Our team"
-    url = "/#"
-    weight = 3
+[[menus.main]]
+name = "Security"
+url = "/security"
+weight = 3
 
-    [[menus.main]]
-    name = "Pricing"
-    url = "/#"
-    weight = 4
+[[menus.main]]
+name = "Features"
+url = "/features"
+weight = 4
 
-    [[menus.main]]
-    name = "Blog"
-    url = "/blog"
-    weight = 5
+[[menus.main]]
+name = "Blog"
+url = "/blog"
+weight = 5
 
-    [[menus.buttons]]
-    name = "Book a call"
-    url = "/#"
-    weight = 5
-    pre = "btn btn-primary text-light"
+[[menus.buttons]]
+name = "Book a call"
+url = "/#"
+weight = 5
+pre = "btn btn-primary text-light"
 
-    [[menus.footer]]
-    name = "Home"
-    url = "/#hero"
-    weight = 1
+[[menus.footer]]
+name = "Home"
+url = "/#hero"
+weight = 1
 
-    [[menus.footer]]
-    name = "How we work"
-    url = "/#"
-    weight = 2
+[[menus.footer]]
+name = "Business Drivers"
+url = "/business-drivers"
+weight = 2
 
-    [[menus.footer]]
-    name = "Our team"
-    url = "/#"
-    weight = 3
+[[menus.footer]]
+name = "Security"
+url = "/security"
+weight = 3
 
-    [[menus.footer]]
-    name = "Pricing"
-    url = "/#"
-    weight = 4
+[[menus.footer]]
+name = "Features"
+url = "/features"
+weight = 4
 
-    [[menus.footer]]
-    name = "Blog"
-    url = "/blog"
-    weight = 5
+[[menus.footer]]
+name = "Blog"
+url = "/blog"
+weight = 5
 
-    [taxonomies]
-    series = "series"
-    tags = "tags"
+[taxonomies]
+series = "series"
+tags = "tags"
