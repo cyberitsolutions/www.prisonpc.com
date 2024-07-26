@@ -79,27 +79,26 @@ PrisonPC facilitates the secure delivery of interactive educational content, fro
 
 ---
 
-## PrisonPC puts the power of system management squarely in the hands of staff and, where necessary, allows them to perform their duties remotely and therefore avoid placing themselves in a potentially volatile situation.
+ PrisonPC puts the power of system management squarely in the hands of staff and, where necessary, allows them to perform their duties remotely and therefore avoid placing themselves in a potentially volatile situation.
 
 ---
 
-## "a remarkably consistent association has been found between family contact during incarceration and lower recidivism rates."
+> "a remarkably consistent association has been found between family contact during incarceration and lower recidivism rates."
 
 — Rebecca L. Naser & Christy A. Visher 
 
-​
-
 Family Members' Experiences with Incarceration and Reentry
+
 7 Western Criminology Review 20, 21 - 2006
 
 ---
 
-## In Europe [over 85% of the population use the Internet](http://www.internetworldstats.com/stats4.htm) and it has been recognised in law as a [fundamental right on a par with freedom of expression](http://www.zdnet.com/eu-lawmakers-vote-to-introduce-net-neutrality-3039648565/). Australia's uptake is higher with [almost 90% of the population](http://www.internetworldstats.com/pacific.htm#au) being Internet users.
+In Europe [over 85% of the population use the Internet](http://www.internetworldstats.com/stats4.htm) and it has been recognised in law as a [fundamental right on a par with freedom of expression](http://www.zdnet.com/eu-lawmakers-vote-to-introduce-net-neutrality-3039648565/). Australia's uptake is higher with [almost 90% of the population](http://www.internetworldstats.com/pacific.htm#au) being Internet users.
 
 
 ---
 
-## "Access [to televisions] can be a strong incentive to good behaviour and regime participation, and can aid order and control by occupying inmates’ time and reducing boredom and tension."
+> "Access [to televisions] can be a strong incentive to good behaviour and regime participation, and can aid order and control by occupying inmates’ time and reducing boredom and tension."
 
 — NOMS Agency Board, UK Ministry of Justice
 
