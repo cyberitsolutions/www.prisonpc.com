@@ -60,16 +60,16 @@ name = "Features"
 url = "/features"
 weight = 4
 
-[[menus.main]]
-name = "Blog"
-url = "/posts"
-weight = 5
+#[[menus.main]]
+#name = "Blog"
+#url = "/posts"
+#weight = 5
 
-[[menus.buttons]]
-name = "Book a call"
-url = "/#"
-weight = 5
-pre = "btn btn-primary text-light"
+#[[menus.buttons]]
+#name = "Book a call"
+#url = "/#"
+#weight = 5
+#pre = "btn btn-primary text-light"
 
 [[menus.footer]]
 name = "Home"
@@ -91,10 +91,10 @@ name = "Features"
 url = "/features"
 weight = 4
 
-[[menus.footer]]
-name = "Blog"
-url = "/posts"
-weight = 5
+#[[menus.footer]]
+#name = "Blog"
+#url = "/posts"
+#weight = 5
 
 [taxonomies]
 series = "series"
