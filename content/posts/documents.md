@@ -3,6 +3,7 @@ date: "2024-07-19T14:13:48+10:00"
 draft: false
 title: Documents
 url: /documents
+images: ["images/documents.webp"]
 ---
 
 ## Designing Secure Prisoner Computer Systems

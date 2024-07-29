@@ -3,6 +3,7 @@ date: "2024-07-22T17:15:47+10:00"
 draft: false
 title: Designing Secure Prisoner Computer Systems
 url: design-book
+images: ["images/book.webp"]
 ---
 
 Advances in technology have brought an enormous range of benefits and efficiencies to all areas of society and correctional institutions have been early adopters of many of these advances. From real-time RFID location tracking to biometrics, heart-beat sensors, iris scanners, microwave detectors, and more, prisons are not averse to implementing secure technological solutions. However correctional facilities often avoid inmate-facing computers due to the many security and safety concerns.
