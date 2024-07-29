@@ -62,7 +62,7 @@ weight = 4
 
 [[menus.main]]
 name = "Blog"
-url = "/blog"
+url = "/posts"
 weight = 5
 
 [[menus.buttons]]
@@ -93,7 +93,7 @@ weight = 4
 
 [[menus.footer]]
 name = "Blog"
-url = "/blog"
+url = "/posts"
 weight = 5
 
 [taxonomies]
