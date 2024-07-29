@@ -5,7 +5,7 @@ title: Features
 url: /features
 ---
 
-## Secure Central Management
+# Secure Central Management
 
 Authorised staff can manage site policies and inmate desktops from a secure central location, confident that inmates cannot circumvent policy or evade monitoring.
 
@@ -31,7 +31,7 @@ From their secure console staff can broadcast pop-up alerts to inmates, remotely
 
 PrisonPC leverages the power and value of commodity desktop hardware to run applications on the local desktop while not allowing the inmates to access the underlying operating system nor to modify the application software.
 
-## Integrated IPTV and Media
+# Integrated IPTV and Media
 
 Standard free-to-air television and radio content is distributed to the inmates' PILS desktops, enabling them to select and view individual channels or stations. Specific television programmes deemed unacceptable by prison policy can be blocked by staff while others can  be cached and timeshifted.
 
@@ -47,7 +47,7 @@ PrisonPC PILS desktops can play standard audio CDs and video DVDs, eliminating t
 
 Inmates are denied access to unauthorised optical media and to all USB storage devices (thumbdrives and similar). Any such media smuggled into the facility will be rejected by PrisonPC desktops.
 
-## Filtered Web and Email
+# Filtered Web and Email
 
 Email offers a valuable addition to the overall strategy of managed reintegration of inmates with their families and community, and it provides intel staff a powerful tool in their arsenal by allowing them to monitor communications in real time and to review and compare old correspondence with ease.
 
@@ -67,11 +67,11 @@ And, of course, all incoming and outgoing email is copied to a secure archive th
 
 Inmates can be selectively provided with access to browse a limited list of approved websites, such as for on-line education or legal preparation. Attempts to access non-approved sites or pages are rejected.
 
-## Print Management
+# Print Management
 
 PrisonPC makes document identification and distribution easy. All documents printed by inmates are watermarked with clear identification of who printed the document, regardless of the application they've printed from. Additionally, electronic copies of all printed documents are automatically retained for later review by staff.
 
-## Content Delivery
+# Content Delivery
 
 PrisonPC facilitates the secure delivery of interactive educational content, from both on-line sources and through in-house education providers. Applications supporting a range of educational needs, from basic literacy and numeracy through to more advanced education, can be offered securely through PrisonPC, thereby increasing the inmates' opportunity to be better prepared for reintegration into society and gain meaningful employment.
 
@@ -84,12 +84,12 @@ PrisonPC facilitates the secure delivery of interactive educational content, fro
 ---
 
 > "a remarkably consistent association has been found between family contact during incarceration and lower recidivism rates."
-
-— Rebecca L. Naser & Christy A. Visher 
-
-Family Members' Experiences with Incarceration and Reentry
-
-7 Western Criminology Review 20, 21 - 2006
+>
+> -- Rebecca L. Naser & Christy A. Visher 
+>
+> Family Members' Experiences with Incarceration and Reentry
+>
+> 7 Western Criminology Review 20, 21 - 2006
 
 ---
 
@@ -99,7 +99,5 @@ In Europe [over 85% of the population use the Internet](http://www.internetworl
 ---
 
 > "Access [to televisions] can be a strong incentive to good behaviour and regime participation, and can aid order and control by occupying inmates’ time and reducing boredom and tension."
-
-— NOMS Agency Board, UK Ministry of Justice
-
-March 1st 2012
+>
+> -- NOMS Agency Board, UK Ministry of Justice, March 1st 2012

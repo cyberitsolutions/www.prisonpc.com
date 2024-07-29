@@ -41,8 +41,7 @@ A secure Prisoner Interactive Learning System can deliver numerous immediate ben
 
 To ensure these benefits are realised special attention and diligence is necessary in the design and delivery of your secure in-cell interactive technology solution.
 
-### "As advanced technologies are integrated into other areas of correctional facility life (e.g., family communications via e-mail and video conferencing, and access to health and treatment services via telemedicine), a growing number of corrections agencies and facilities and their education partners are exploring ways to securely and cost-effectively increase access to educational technology." 
-
-[Educational Technology in Corrections 2015](http://www2.ed.gov/about/offices/list/ovae/pi/AdultEd/policybriefedtech.pdf)
-
+> "As advanced technologies are integrated into other areas of correctional facility life (e.g., family communications via e-mail and video conferencing, and access to health and treatment services via telemedicine), a growing number of corrections agencies and facilities and their education partners are exploring ways to securely and cost-effectively increase access to educational technology." 
+>
+> -- [Educational Technology in Corrections 2015](http://www2.ed.gov/about/offices/list/ovae/pi/AdultEd/policybriefedtech.pdf)
 U.S. Department of Education

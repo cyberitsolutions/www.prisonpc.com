@@ -43,5 +43,5 @@ Inmates are restricted from making use of unapproved DVDs. Attempts by an inmate
 Extensive logging of user sessions is recorded in the system logs for prison staff to audit later if required. Prison staff can remotely monitor or control inmate desktops for remote support or clandestine monitoring.
 
 > "Security best practices aren't aspirational goals, they're the baseline of professional competence. [They] aren't the ceiling you reach for, they're the floor you stand on."
-
--- Barry Anderson - Security Architect, Cisco Systems
+>
+> -- Barry Anderson - Security Architect, Cisco Systems
