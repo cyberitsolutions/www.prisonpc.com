@@ -1,0 +1,7 @@
+enabled: true
+id: "contact_form"
+
+content:
+  title: "Enquiries"
+  text: ""
+  un_static_endpoint_reference: "4012c5705ad813290cfb272236cef7e727fba9a6"

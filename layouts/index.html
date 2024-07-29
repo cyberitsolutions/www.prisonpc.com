@@ -3,6 +3,8 @@
   {{ with .Site.Data.home.brands }}{{ if .enabled }}{{ partial "sections/brands.html" . }}{{ end }}{{ end }}
   {{ with .Site.Data.home.portfolio }}{{ if .enabled }}{{ partial "sections/portfolio.html" . }}{{ end }}{{ end }}
   {{ with .Site.Data.home.services }}{{ if .enabled }}{{ partial "sections/services.html" . }}{{ end }}{{ end }}
+  {{ with .Site.Data.home.video }}{{ if .enabled }}{{ partial "sections/video.html" . }}{{ end }}{{ end }}
   {{ with .Site.Data.home.testimonials }}{{ if .enabled }}{{ partial "sections/testimonials.html" . }}{{ end }}{{ end }}
   {{ with .Site.Data.home.cta }}{{ if .enabled }}{{ partial "sections/cta.html" . }}{{ end }}{{ end }}
+  {{ with .Site.Data.home.contact_form }}{{ if .enabled }}{{ partial "sections/contact_form.html" . }}{{ end }}{{ end }}
 {{ end }}

@@ -1,0 +1,7 @@
+enabled: true
+id: "video"
+
+content:
+  title: "PrisonPC Introduction"
+  text: ""
+  video: "{{< youtube 8VOYS1jJ8a8 >}}"

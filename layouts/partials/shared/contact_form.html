@@ -1,0 +1,19 @@
+<form method="post" action="https://forms.un-static.com/forms/{{ .content.un_static_endpoint_reference | safeHTML }}">
+    <div class="mb-3">
+        <label for="inputName" class="form-label">Name</label>
+        <input type="text" class="form-control" id="inputName" placeholder="Please enter your name" name="name" />
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Email" aria-describedby="emailHelp" />
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" cols="40" rows="8" name="message"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
+    <p class="text-center">
+        <small>(Powered by <a rel="nofollow" target="_blank" href="https://un-static.com/">Un-static Forms</a>)</small>
+    </p>
+</form>
