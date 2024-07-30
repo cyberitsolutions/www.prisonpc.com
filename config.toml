@@ -4,6 +4,10 @@ title = 'PrisonPC'
 #theme = 'pehtheme-hugo'
 theme = 'up-business-theme'
 
+[services]
+  [services.googleAnalytics]
+    ID = 'G-8D83KW6F5T'
+
 [params]
 title = "PrisonPC"
 description = "Secure Prisoner Interactive Learning System"
