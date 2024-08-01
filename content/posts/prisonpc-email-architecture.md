@@ -1,7 +1,7 @@
 ---
-title: 'PrisonPC Email Architecture'
-date: 2024-07-22T17:50:10+10:00
+date: "2024-07-22T17:50:10+10:00"
 draft: false
+title: PrisonPC Email Architecture
 url: prisonpc-email-architecture
 ---
 

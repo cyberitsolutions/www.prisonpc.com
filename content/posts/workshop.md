@@ -1,7 +1,7 @@
 ---
-title: 'Workshop'
-date: 2024-07-26T12:13:41+10:00
+date: "2024-07-26T12:13:41+10:00"
 draft: false
+title: Workshop
 url: /workshop
 ---
 

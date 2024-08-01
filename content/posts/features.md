@@ -1,9 +1,10 @@
 ---
 date: "2024-07-19T13:52:10+10:00"
 draft: false
+images:
+- images/features.webp
 title: Features
 url: /features
-images: ["images/features.webp"]
 ---
 
 # Secure Central Management

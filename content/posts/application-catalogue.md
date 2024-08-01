@@ -1,7 +1,7 @@
 ---
-title: 'Application Catalogue'
-date: 2024-07-26T12:03:32+10:00
+date: "2024-07-26T12:03:32+10:00"
 draft: false
+title: Application Catalogue
 url: /application-catalogue
 ---
 
