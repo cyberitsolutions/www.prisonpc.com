@@ -5,42 +5,42 @@ content:
   title: "Features"
   text: ""
   cards:
-    - image: "images/services-web-development.png"
+    - image: "images/central-management-1.png"
       title: "Central Management"
       text: "Authorised staff can manage site policies and inmate activities from a secure central location, confident that inmates cannot circumvent policy or evade monitoring."
       button:
         label: "Learn more"
         url: "features#secure-central-management"
 
-    - image: "images/services-web-development.png"
+    - image: "images/iptv-1.png"
       title: "Integrated IPTV and Media"
       text: "Standard free-to-air television, in-house, cable, and audio content is distributed to the inmates' computers, enabling them to select and view individual channels or stations."
       button:
         label: "Learn more"
         url: "features#integratediptv-and-media"
 
-    - image: "images/services-web-development.png"
+    - image: "images/web-email-1.png"
       title: "Filtered Web and Email"
       text: "Providing inmates with restricted access to web and email resources enables correctional facilities to manage the reintegration of inmates as they approach their release date. "
       button:
         label: "Learn more"
         url: "features#filtered-web-and-email"
 
-    - image: "images/services-web-development.png"
+    - image: "images/print-1.png"
       title: "Print Management"
       text: "All printed documents are marked with clear identification of who printed the document and electronic copies are automatically retained for later staff review."
       button:
         label: "Learn more"
         url: "features#print-management"
 
-    - image: "images/services-web-development.png"
+    - image: "images/content-delivery-1.png"
       title: "Content Delivery"
       text: "PrisonPC facilitates the secure delivery of informational and educational content from on-line sources and through in-house education providers."
       button:
         label: "Learn more"
         url: "features#content-delivery"
 
-    - image: "images/services-web-development.png"
+    - image: "images/consolidated-1.png"
       title: "Consolidated In-cell Device"
       text: "Consolidates television, radio, stereo, gaming consoles, and similar devices into a single unit, reducing costs and opportunity for inmates to hide contraband."
       button:
