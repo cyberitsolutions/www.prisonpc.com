@@ -9,4 +9,5 @@ author: Hugo Authors
 tags:
 - index
 title: Posts
+headless: true
 ---
