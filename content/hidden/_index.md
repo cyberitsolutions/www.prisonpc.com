@@ -9,5 +9,10 @@ author: Hugo Authors
 tags:
 - index
 title: Posts
-headless: true
+build:
+  list: never
+  render: never
+cascade:
+- build:
+    list: never
 ---
