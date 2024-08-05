@@ -33,6 +33,12 @@ From their secure console staff can broadcast pop-up alerts to inmates, remotely
 
 PrisonPC leverages the power and value of commodity desktop hardware to run applications on the local desktop while not allowing the inmates to access the underlying operating system nor to modify the application software.
 
+---
+
+> PrisonPC puts the power of system management squarely in the hands of staff and, where necessary, allows them to perform their duties remotely and therefore avoid placing themselves in a potentially volatile situation.
+
+---
+
 # Integrated IPTV and Media
 
 Standard free-to-air television and radio content is distributed to the inmates' PILS desktops, enabling them to select and view individual channels or stations. Specific television programmes deemed unacceptable by prison policy can be blocked by staff while others can  be cached and timeshifted.
@@ -43,6 +49,13 @@ Correctional facilities can broadcast video and audio content on the internal ch
 
 This is particularly valuable to correctional facilities where inmates of minority religions might otherwise be subjected to intolerance and bullying.
 
+---
+
+> "Access [to televisions] can be a strong incentive to good behaviour and regime participation, and can aid order and control by occupying inmates’ time and reducing boredom and tension."
+>
+> -- NOMS Agency Board, UK Ministry of Justice, March 1st 2012
+
+---
 ## Media Restrictions
 
 PrisonPC PILS desktops can play standard audio CDs and video DVDs, eliminating the need for insecure CD players, stereos, and video players in the inmates' cells.
@@ -65,24 +78,6 @@ All incoming and outgoing email passes through the filtering mechanism which aut
 
 And, of course, all incoming and outgoing email is copied to a secure archive through which prison staff are able to view any email at any time, even well after delivery has occurred.
 
-## Web Access
-
-Inmates can be selectively provided with access to browse a limited list of approved websites, such as for on-line education or legal preparation. Attempts to access non-approved sites or pages are rejected.
-
-# Print Management
-
-PrisonPC makes document identification and distribution easy. All documents printed by inmates are watermarked with clear identification of who printed the document, regardless of the application they've printed from. Additionally, electronic copies of all printed documents are automatically retained for later review by staff.
-
-# Content Delivery
-
-PrisonPC facilitates the secure delivery of interactive educational content, from both on-line sources and through in-house education providers. Applications supporting a range of educational needs, from basic literacy and numeracy through to more advanced education, can be offered securely through PrisonPC, thereby increasing the inmates' opportunity to be better prepared for reintegration into society and gain meaningful employment.
-
----
-
----
-
- PrisonPC puts the power of system management squarely in the hands of staff and, where necessary, allows them to perform their duties remotely and therefore avoid placing themselves in a potentially volatile situation.
-
 ---
 
 > "a remarkably consistent association has been found between family contact during incarceration and lower recidivism rates."
@@ -95,11 +90,22 @@ PrisonPC facilitates the secure delivery of interactive educational content, fro
 
 ---
 
-In Europe [over 85% of the population use the Internet](http://www.internetworldstats.com/stats4.htm) and it has been recognised in law as a [fundamental right on a par with freedom of expression](http://www.zdnet.com/eu-lawmakers-vote-to-introduce-net-neutrality-3039648565/). Australia's uptake is higher with [almost 90% of the population](http://www.internetworldstats.com/pacific.htm#au) being Internet users.
+## Web Access
 
+Inmates can be selectively provided with access to browse a limited list of approved websites, such as for on-line education or legal preparation. Attempts to access non-approved sites or pages are rejected.
 
 ---
 
-> "Access [to televisions] can be a strong incentive to good behaviour and regime participation, and can aid order and control by occupying inmates’ time and reducing boredom and tension."
->
-> -- NOMS Agency Board, UK Ministry of Justice, March 1st 2012
+> In Europe [over 85% of the population use the Internet](http://www.internetworldstats.com/stats4.htm) and it has been recognised in law as a [fundamental right on a par with freedom of expression](http://www.zdnet.com/eu-lawmakers-vote-to-introduce-net-neutrality-3039648565/). Australia's uptake is higher with [almost 90% of the population](http://www.internetworldstats.com/pacific.htm#au) being Internet users.
+
+---
+
+# Print Management
+
+PrisonPC makes document identification and distribution easy. All documents printed by inmates are watermarked with clear identification of who printed the document, regardless of the application they've printed from. Additionally, electronic copies of all printed documents are automatically retained for later review by staff.
+
+# Content Delivery
+
+PrisonPC facilitates the secure delivery of interactive educational content, from both on-line sources and through in-house education providers. Applications supporting a range of educational needs, from basic literacy and numeracy through to more advanced education, can be offered securely through PrisonPC, thereby increasing the inmates' opportunity to be better prepared for reintegration into society and gain meaningful employment.
+
+
