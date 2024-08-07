@@ -3,6 +3,8 @@ date: "2024-07-22T17:38:09+10:00"
 draft: false
 title: PILS Device Requirements Desktop Profile
 url: pils-device-requirements-desktop-pr
+images:
+-
 ---
 
 ## Mandatory Requirements

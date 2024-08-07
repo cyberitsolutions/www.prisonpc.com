@@ -3,6 +3,8 @@ date: "2024-07-22T17:47:50+10:00"
 draft: false
 title: PrisonPC Network Architecture
 url: prisonpc-network-architecture
+images:
+-
 ---
 
 ![Network Architecture Diagram](../prisonpc_architecture_diagram.png)

@@ -3,6 +3,8 @@ date: "2024-07-22T17:50:10+10:00"
 draft: false
 title: PrisonPC Email Architecture
 url: prisonpc-email-architecture
+images:
+-
 ---
 
 ![Email Architecture Diagram](../prisonpc_email_architecture_diagram.png)
