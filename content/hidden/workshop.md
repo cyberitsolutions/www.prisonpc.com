@@ -2,6 +2,7 @@
 date: "2024-07-26T12:13:41+10:00"
 draft: false
 title: Workshop
+description: The street address of the Cyber IT Solutions Pty Ltd workshop
 url: /workshop
 ---
 

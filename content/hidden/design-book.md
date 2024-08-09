@@ -4,6 +4,7 @@ draft: false
 images:
 - images/book.webp
 title: Designing Secure Prisoner Computer Systems
+description: A free downloadable PDF book detailing the core design principles behind PrisonPC Prisoner Interactive Learning System (PILS).
 url: design-book
 ---
 

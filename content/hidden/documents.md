@@ -4,6 +4,7 @@ draft: false
 images:
 - images/documents.webp
 title: Documents
+description: A list of documents describing various uses and components of the PrisonPC Prisoner Interactive Learning System (PILS)
 url: /documents
 ---
 
