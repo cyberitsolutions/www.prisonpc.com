@@ -4,6 +4,7 @@ draft: false
 images:
 - images/features.webp
 title: Features
+description: An overview of the core features of the PrisonPC PILS, including central device management, security, TV, email, and web access.
 url: /features
 ---
 

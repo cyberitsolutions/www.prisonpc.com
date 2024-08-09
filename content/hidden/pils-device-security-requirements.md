@@ -2,6 +2,7 @@
 date: "2024-07-22T17:31:36+10:00"
 draft: false
 title: PILS Device Security Requirements
+description: A list of the Prisoner Interactive Learning System (PILS) devices we offer, and their detailed security requirements.
 url: pils-device-security-requirements
 images:
 -

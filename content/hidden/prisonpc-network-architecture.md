@@ -2,6 +2,7 @@
 date: "2024-07-22T17:47:50+10:00"
 draft: false
 title: PrisonPC Network Architecture
+description: A high-level architecture diagram illustrating isolation between inmate and staff networks, and where third-party services can be integrated.
 url: prisonpc-network-architecture
 images:
 -

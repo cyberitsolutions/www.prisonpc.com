@@ -2,6 +2,7 @@
 date: "2024-07-22T17:29:13+10:00"
 draft: false
 title: Secure in Cell Technology
+description: A collection of videos describing the security features of our secure in-cell technology, including contraband mitigation and safety considerations.
 url: /secure-in-cell-technology
 images:
 -
