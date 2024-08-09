@@ -4,7 +4,7 @@ draft: false
 images:
 - images/security.webp
 title: Hardened Security
-description: Details of PrisonPC's security features: explicit allow-listing for internet and removal media, secure chassis, detailed logging, and locked-down software.
+description: "Details of PrisonPC's security features: explicit allow-listing for internet and removal media, secure chassis, detailed logging, and locked-down software."
 url: /security
 ---
 
