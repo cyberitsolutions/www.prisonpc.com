@@ -3,6 +3,7 @@ languageCode = 'en-au'
 title = 'PrisonPC'
 #theme = 'pehtheme-hugo'
 theme = 'up-business-theme'
+enableRobotsTXT = true
 
 [services]
   [services.googleAnalytics]
