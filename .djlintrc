@@ -1,0 +1,14 @@
+{
+  "profile": "golang",
+  "use_gitignore": true,
+  "ignore": "H006",
+  "indent": 4,
+  "format_css": true,
+  "css": {
+    "indent_size": 4
+  },
+  "format_js": true,
+  "js": {
+    "indent_size": 4
+  }
+}
