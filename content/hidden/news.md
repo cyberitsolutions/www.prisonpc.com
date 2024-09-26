@@ -8,6 +8,8 @@ images:
 -
 ---
 
+The following are where PrisonPC is being referenced in the media, and press releases we've published.
+
 ![](/images/connectethome-logo.jpg)
 
 ##### [PrisonPC IPTV solution sees major feature release](http://www.connectedhome.com.au/prisonpc-iptv-solution-sees-major-feature-release/)
