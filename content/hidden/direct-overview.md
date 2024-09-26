@@ -5,7 +5,7 @@ title: Overview
 description: "Internal (non-Youtube) video offering an overview of PrisonPC's security architecture, administrative functionality, and third-party services integration."
 url: direct-overview
 images:
--
+- ""
 ---
 
 # FIXME: Use internal link
