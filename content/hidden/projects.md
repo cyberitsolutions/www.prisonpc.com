@@ -10,8 +10,6 @@ images:
 
 ## Projects
 
-Showcased here are some of the prison projects we've successfully delivered through Public Private Partnerships or directly to Corrective Services government agencies.
-
 PrisonPC provides these correctional facilities with a range of required functions and services supporting basic numeracy and literacy education, work-place reentry programmes, vocational and distance education, integrated digital television, and other entertainment options.
 
 These functions and services were chosen by the facilities to increase staff and inmate safety, improve morale, make the correctional centre run more smoothly, help reduce recidivism, and improve the inmates' reintegration back into society and family life.
