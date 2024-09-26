@@ -4,6 +4,8 @@ draft: false
 title: Workshop
 description: The street address of the Cyber IT Solutions Pty Ltd workshop
 url: /workshop
+images:
+-
 ---
 
 Cyber IT Solutions Pty Ltd,
