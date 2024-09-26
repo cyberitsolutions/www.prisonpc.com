@@ -13,3 +13,11 @@ blockquote {
   padding-top: 20px;
   line-height: 1;
 }
+
+/* ref: https://markus.oberlehner.net/blog/simple-solution-for-anchor-links-behind-sticky-headers/ */
+$sticky-breakpoint: 32em;
+[id] {
+  @media (min-height: $sticky-breakpoint) {
+    scroll-margin-top: 100px; // 1
+  }
+}
