@@ -3,6 +3,7 @@ date: "2024-07-22T17:38:25+10:00"
 draft: false
 title: PILS Device Requirements Tablet Profile
 description: A list of the requirements a Prisoner Interactive Learning System (PILS) hand-held tablet is required to meet
+summary: A list of the requirements a Prisoner Interactive Learning System (PILS) hand-held tablet is required to meet
 url: pils-device-requirements-tablet-pro
 images:
 -

@@ -10,9 +10,9 @@ tags:
 - index
 title: Posts
 build:
-  list: never
-  render: never
+  list: local
+  render: local
 cascade:
 - build:
-    list: never
+    list: local
 ---

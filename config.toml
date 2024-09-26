@@ -4,6 +4,7 @@ title = 'PrisonPC'
 #theme = 'pehtheme-hugo'
 theme = 'up-business-theme'
 enableRobotsTXT = true
+summaryLength = 10
 
 [services]
   [services.googleAnalytics]
