@@ -14,5 +14,5 @@ Detailed information on the potential threats of in-cell interactive technology 
 
 Select the device profile for details of its specific requirements:
 
-[![](../aio_large.png) Desktop profile](../pils-device-requirements-desktop-pr)
-[![](../tablet.png) Tablet profile](../pils-device-requirements-tablet-pro)
+[![](../images/aio_large.png) Desktop profile](../pils-device-requirements-desktop-pr)
+[![](../images/tablet.png) Tablet profile](../pils-device-requirements-tablet-pro)

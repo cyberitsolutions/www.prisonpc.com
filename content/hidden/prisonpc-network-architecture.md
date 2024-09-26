@@ -8,7 +8,7 @@ images:
 -
 ---
 
-![Network Architecture Diagram](../prisonpc_architecture_diagram.png)
+![Network Architecture Diagram](../images/prisonpc_architecture_diagram.png)
 
 
 This high-level architecture diagram illustrates how the inmate and staff networks are isolated from each other and where third-party services (CMS, ILS, LMS, Citrix, VoIP, etc) can be integrated.

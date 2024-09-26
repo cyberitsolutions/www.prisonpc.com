@@ -8,6 +8,6 @@ images:
 -
 ---
 
-![Email Architecture Diagram](../prisonpc_email_architecture_diagram.png)
+![Email Architecture Diagram](../images/prisonpc_email_architecture_diagram.png)
 
 This flow-chart diagram illustrates how email is handled through PrisonPC, and the flexibility afforded to correctional staff.
