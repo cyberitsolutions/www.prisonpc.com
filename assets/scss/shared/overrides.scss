@@ -8,6 +8,10 @@ blockquote {
   margin: auto;
   border-radius: 25px;
 }
+div:has(iframe)
+{
+  width: 100%;
+}
 
 .blog-content h1 {
   padding-top: 20px;
