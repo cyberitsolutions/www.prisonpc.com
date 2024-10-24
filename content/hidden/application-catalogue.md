@@ -2,7 +2,7 @@
 date: "2024-07-26T12:03:32+10:00"
 draft: false
 title: Application Catalogue
-description: Details of core software delivered to inmates in the security hardened desktop SOE, plus many optional curated educational and entertainment applications
+//description: Details of core software delivered to inmates in the security hardened desktop SOE, plus many optional curated educational and entertainment applications
 url: /application-catalogue
 images:
 -
