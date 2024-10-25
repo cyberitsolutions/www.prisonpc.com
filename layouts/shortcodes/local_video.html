@@ -1,0 +1,19 @@
+{{ $videoID := or (.Get "id") (.Get 0) }}
+{{ $videoFormats :=  slice "mp4" }}
+{{ $URLPrefix := "https://github.com/cyberitsolutions/prisonpc-website-large-files/blob/main/videos" }}
+{{ $URLSuffix := "?raw=true" }}
+{{ $posterUrl := printf "%s/%s.jpg%s" $URLPrefix $videoID $URLSuffix }}
+
+<video controls poster="{{ $posterUrl }}">
+{{- range $videoFormats }}
+{{- $videoFormat := . }}
+{{- $videoURL := (printf "%s/%s.%s%s" $URLPrefix $videoID $videoFormat $URLSuffix ) }}
+{{- with resources.GetRemote $videoURL }}
+  {{- with .Err }}{{- errorf "%s" . }}{{- else }}
+  <source src="{{ .RelPermalink }}" type="video/{{ $videoFormat }}" />
+  {{- end }}
+{{- else }}
+  {{- errorf "Unable to get remote resource %q" $videoURL }}
+{{- end }}
+{{- end }}
+</video>

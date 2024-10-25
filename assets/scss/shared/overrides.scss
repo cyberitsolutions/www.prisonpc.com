@@ -8,7 +8,7 @@ blockquote {
   margin: auto;
   border-radius: 25px;
 }
-div:has(iframe)
+div:has(iframe), video
 {
   width: 100%;
 }
