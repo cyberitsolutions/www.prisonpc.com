@@ -12,4 +12,4 @@ images:
 
 # PrisonPC Introduction
 
-{{< youtube 8VOYS1jJ8a8 >}}
+{{< local_video 8VOYS1jJ8a8 >}}
