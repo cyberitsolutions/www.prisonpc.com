@@ -1,0 +1,18 @@
+{{ $videoID := or (.Get "id") (.Get 0) }}
+{{ $videoFormats :=  slice "mp4" }}
+{{ $URLPrefix := "https://minio.dane.mattcen.com/test/ppc_vids" }}
+{{ $posterUrl := printf "%s/%s.jpg" $URLPrefix $videoID }}
+
+<video controls poster="{{ $posterUrl }}">
+{{- range $videoFormats }}
+{{- $videoFormat := . }}
+{{- $videoURL := (printf "%s/%s.%s" $URLPrefix $videoID $videoFormat) }}
+{{- with resources.GetRemote $videoURL }}
+  {{- with .Err }}{{- errorf "%s" . }}{{- else }}
+  <source src="{{ .RelPermalink }}" type="video/{{ $videoFormat }}" />
+  {{- end }}
+{{- else }}
+  {{- errorf "Unable to get remote resource %q" $videoURL }}
+{{- end }}
+{{- end }}
+</video>
