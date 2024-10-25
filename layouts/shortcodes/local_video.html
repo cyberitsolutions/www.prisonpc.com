@@ -1,12 +1,13 @@
 {{ $videoID := or (.Get "id") (.Get 0) }}
 {{ $videoFormats :=  slice "mp4" }}
-{{ $URLPrefix := "https://minio.dane.mattcen.com/test/ppc_vids" }}
-{{ $posterUrl := printf "%s/%s.jpg" $URLPrefix $videoID }}
+{{ $URLPrefix := "https://github.com/cyberitsolutions/prisonpc-website-large-files/blob/main/videos" }}
+{{ $URLSuffix := "?raw=true" }}
+{{ $posterUrl := printf "%s/%s.jpg%s" $URLPrefix $videoID $URLSuffix }}
 
 <video controls poster="{{ $posterUrl }}">
 {{- range $videoFormats }}
 {{- $videoFormat := . }}
-{{- $videoURL := (printf "%s/%s.%s" $URLPrefix $videoID $videoFormat) }}
+{{- $videoURL := (printf "%s/%s.%s%s" $URLPrefix $videoID $videoFormat $URLSuffix ) }}
 {{- with resources.GetRemote $videoURL }}
   {{- with .Err }}{{- errorf "%s" . }}{{- else }}
   <source src="{{ .RelPermalink }}" type="video/{{ $videoFormat }}" />
