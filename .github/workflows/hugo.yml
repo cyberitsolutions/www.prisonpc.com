@@ -5,11 +5,6 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
-  pull_request:
-    types:
-      - opened
-      - reopened
-      - synchronize
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -67,12 +62,6 @@ jobs:
         with:
           path: ./public
 
-      - name: Deploy preview
-        if: ${{ github.event_name == 'pull_request' }}
-        uses: rossjrw/pr-preview-action@v1
-        with:
-          source-dir: ./public/
-
   # Deployment job
   deploy:
     environment:
@@ -82,6 +71,5 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
-        if: ${{ github.event_name == 'push' }}
         id: deployment
         uses: actions/deploy-pages@v4
