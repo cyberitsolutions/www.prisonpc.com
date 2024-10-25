@@ -9,37 +9,37 @@ images:
 ---
 
 ## Log Retention
-{{< local_video XVcQUq-CMa0 >}}
+{{< youtube XVcQUq-CMa0 >}}
 
 ---
 
 ## Digital Contraband
-{{< local_video dTH1a7RgCjY >}}
+{{< youtube dTH1a7RgCjY >}}
 
 ---
 
 ## Improvised Weapons and Self-Harm
-{{< local_video uXossZSnC3c >}}
+{{< youtube uXossZSnC3c >}}
 
 ---
 
 ## Physical Contraband
-{{< local_video CO3i_KjrekY >}}
+{{< youtube CO3i_KjrekY >}}
 
 ---
 
 ## Tablets and E-Book Readers
-{{< local_video xbrJRxf_qBg >}}
+{{< youtube xbrJRxf_qBg >}}
 
 ---
 
 ## Shared Authentication
-{{< local_video 8cffFrcT0G8 >}}
+{{< youtube 8cffFrcT0G8 >}}
 
 ---
 
 ## Secure Tablets for Prisoners
-{{< local_video SshBA32-t6E >}}
+{{< youtube SshBA32-t6E >}}
 
 ---
 

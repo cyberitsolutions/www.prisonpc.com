@@ -8,4 +8,4 @@ images:
 -
 ---
 
-{{< local_video t2AXDi4KmbA >}}
+{{< youtube t2AXDi4KmbA >}}

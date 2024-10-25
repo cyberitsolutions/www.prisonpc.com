@@ -8,8 +8,6 @@ images:
 - ""
 ---
 
-# FIXME: Use internal link
-
 {{< local_video t2AXDi4KmbA >}}
 
 A brief video offering an overview of PrisonPC's security architecture, administrative functionality, and third-party services integration.

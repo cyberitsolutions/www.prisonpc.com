@@ -4,4 +4,4 @@ id: "video"
 content:
   title: "PrisonPC Introduction"
   text: ""
-  video: "{{< local_video 8VOYS1jJ8a8 >}}"
+  video: "{{< youtube 8VOYS1jJ8a8 >}}"

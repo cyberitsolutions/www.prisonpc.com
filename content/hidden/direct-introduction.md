@@ -8,8 +8,6 @@ images:
 -
 ---
 
-# FIXME: Use internal link
-
 # PrisonPC Introduction
 
 {{< local_video 8VOYS1jJ8a8 >}}
