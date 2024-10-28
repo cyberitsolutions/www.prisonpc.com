@@ -5,7 +5,7 @@
             <div class="col-12">
                 {{ with ( partial "utilities/get-featured-image.html" . ) }}
                     {{ with resources.Get . }}
-                    <img class="img-fluid rounded mx-auto d-block" src="{{ .Permalink }}" alt="{{ .Title }}" width="{{ .Width }}" height="{{ .Height }}" />
+                    <img class="img-fluid rounded25 mx-auto d-block" src="{{ .Permalink }}" alt="{{ .Title }}" width="{{ .Width }}" height="{{ .Height }}" />
                     {{ end }}
                 {{ end }}
             </div>
