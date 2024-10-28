@@ -26,7 +26,7 @@ location = [
     "P.O.Box 5178, Hughesdale, Vic 3166, Australia",
     "Cyber IT Solutions Pty Ltd, Suite 49, Erasmus Business Park, 45 Riversdale Road, Hawthorn, Victoria 3122, Australia"
 ]
-copyright = "© 2024 Cyber IT Solutions Pty Ltd ([attribution](/attribution))"
+copyright = "© 2024 Cyber IT Solutions Pty Ltd (<a href=\"/attribution\">attribution</a>)"
 [params.favicons]
 themeColor = "#FFFFFF"
 backgroundColor = "#FFFFFF"
