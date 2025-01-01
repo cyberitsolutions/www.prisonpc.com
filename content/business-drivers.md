@@ -10,7 +10,7 @@ url: /business-drivers
 
 The financial and societal costs of prisoner recidivism are high and consequently reducing those costs are of equally high importance. Areas where recidivism is positively impacted are education and managed family/societal reintegration.
 
-PrisonPC was designed specifically as the optimal platform for securely delivering inmate education and training, offering the delivery of basic numeracy and literacy programmes, instructional content via streaming media, and tuition with hands-on business desktop applications.
+PrisonPC was designed specifically as the optimal platform for securely delivering inmate education and training, offering the delivery of basic numeracy and literacy programmes, instructional content via streaming media, and tuition with hands-on business desktop applications.
 
 PrisonPC helps inmates improve their chances in the world beyond the correctional facility.
 
@@ -18,7 +18,7 @@ PrisonPC helps inmates improve their chances in the world beyond the correctiona
 
 To reduce recidivism ex-offenders must have marketable job skills as they re-enter society. Providing offenders with good work-place skills makes them more attractive to employers and thereby increases their chances of obtaining and maintaining a job upon release. While basic numeracy and literacy skills lay the foundation for academic and vocational training, computer skills are necessary in almost all non-labouring jobs, thereby increasing their ability to obtain and maintain a place in the work-force post-release.
 
-## Boredom Reduction
+## Boredom Reduction
 
 Many prisons today provide multimedia facilities to inmates in the form of televisions, radios, stereos, gaming consoles, and similar devices. PrisonPC consolidates all these devices into a single unit, reducing the opportunity for inmates to hide contraband, and passes ultimate control to staff to apply automatic curfews to individual features or to revoke privileges.
 
@@ -44,7 +44,7 @@ A secure Prisoner Interactive Learning System can deliver numerous immediate ben
 
 To ensure these benefits are realised special attention and diligence is necessary in the design and delivery of your secure in-cell interactive technology solution.
 
-> "As advanced technologies are integrated into other areas of correctional facility life (e.g., family communications via e-mail and video conferencing, and access to health and treatment services via telemedicine), a growing number of corrections agencies and facilities and their education partners are exploring ways to securely and cost-effectively increase access to educational technology." 
+> "As advanced technologies are integrated into other areas of correctional facility life (e.g., family communications via e-mail and video conferencing, and access to health and treatment services via telemedicine), a growing number of corrections agencies and facilities and their education partners are exploring ways to securely and cost-effectively increase access to educational technology."
 >
 > -- [Educational Technology in Corrections 2015](http://www2.ed.gov/about/offices/list/ovae/pi/AdultEd/policybriefedtech.pdf)
 U.S. Department of Education

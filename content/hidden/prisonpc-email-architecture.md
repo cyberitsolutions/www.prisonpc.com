@@ -9,4 +9,3 @@ images:
 ---
 
 ![Email Architecture Diagram](../images/prisonpc_email_architecture_diagram.png)
-

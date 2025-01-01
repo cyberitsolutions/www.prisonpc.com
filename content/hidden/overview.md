@@ -10,8 +10,6 @@ images:
 
 {{< youtube t2AXDi4KmbA >}}
 
-
 ---
 
 [Alternative video location (if Youtube is blocked by your agency).](../direct-overview)
-

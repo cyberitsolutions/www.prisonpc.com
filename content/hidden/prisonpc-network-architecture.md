@@ -9,5 +9,3 @@ images:
 ---
 
 ![Network Architecture Diagram](../images/prisonpc_architecture_diagram.png)
-
-

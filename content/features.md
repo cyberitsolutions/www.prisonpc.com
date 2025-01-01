@@ -40,9 +40,9 @@ PrisonPC leverages the power and value of commodity desktop hardware to run appl
 
 ---
 
-# Integrated IPTV and Media
+# Integrated IPTV and Media
 
-Standard free-to-air television and radio content is distributed to the inmates' PILS desktops, enabling them to select and view individual channels or stations. Specific television programmes deemed unacceptable by prison policy can be blocked by staff while others can  be cached and timeshifted.
+Standard free-to-air television and radio content is distributed to the inmates' PILS desktops, enabling them to select and view individual channels or stations. Specific television programmes deemed unacceptable by prison policy can be blocked by staff while others can  be cached and timeshifted.
 
 ## Closed-circuit Channels
 
@@ -52,14 +52,15 @@ This is particularly valuable to correctional facilities where inmates of minori
 
 ---
 
-> "Access [to televisions] can be a strong incentive to good behaviour and regime participation, and can aid order and control by occupying inmates’ time and reducing boredom and tension."
+> "Access [to televisions] can be a strong incentive to good behaviour and regime participation, and can aid order and control by occupying inmates' time and reducing boredom and tension."
 >
 > -- NOMS Agency Board, UK Ministry of Justice, March 1st 2012
 
 ---
+
 ## Media Restrictions
 
-PrisonPC PILS desktops can play standard audio CDs and video DVDs, eliminating the need for insecure CD players, stereos, and video players in the inmates' cells.
+PrisonPC PILS desktops can play standard audio CDs and video DVDs, eliminating the need for insecure CD players, stereos, and video players in the inmates' cells.
 
 Inmates are denied access to unauthorised optical media and to all USB storage devices (thumbdrives and similar). Any such media smuggled into the facility will be rejected by PrisonPC desktops.
 
@@ -73,7 +74,7 @@ PrisonPC email can greatly reduce the amount of hand-written postal mail which m
 
 The secure email service enables inmates to correspond with a restricted list of addressees according to a strict set of rules which align with prison policy.
 
-Address filters alone are not sufficient and so are supplemented by a set of filtering rules which perform deep analysis of each message before allowing delivery.
+Address filters alone are not sufficient and so are supplemented by a set of filtering rules which perform deep analysis of each message before allowing delivery.
 
 All incoming and outgoing email passes through the filtering mechanism which automatically quarantines any unapproved or tainted email for staff attention, enabling staff to review and approve or reject individual messages prior to delivery.
 
@@ -83,7 +84,7 @@ And, of course, all incoming and outgoing email is copied to a secure archive th
 
 > "a remarkably consistent association has been found between family contact during incarceration and lower recidivism rates."
 >
-> -- Rebecca L. Naser & Christy A. Visher 
+> -- Rebecca L. Naser & Christy A. Visher
 >
 > Family Members' Experiences with Incarceration and Reentry
 >
@@ -97,16 +98,14 @@ Inmates can be selectively provided with access to browse a limited list of appr
 
 ---
 
-> In Europe [over 85% of the population use the Internet](http://www.internetworldstats.com/stats4.htm) and it has been recognised in law as a [fundamental right on a par with freedom of expression](http://www.zdnet.com/eu-lawmakers-vote-to-introduce-net-neutrality-3039648565/). Australia's uptake is higher with [almost 90% of the population](http://www.internetworldstats.com/pacific.htm#au) being Internet users.
+> In Europe [over 85% of the population use the Internet](http://www.internetworldstats.com/stats4.htm) and it has been recognised in law as a [fundamental right on a par with freedom of expression](http://www.zdnet.com/eu-lawmakers-vote-to-introduce-net-neutrality-3039648565/). Australia's uptake is higher with [almost 90% of the population](http://www.internetworldstats.com/pacific.htm#au) being Internet users.
 
 ---
 
 # Print Management
 
-PrisonPC makes document identification and distribution easy. All documents printed by inmates are watermarked with clear identification of who printed the document, regardless of the application they've printed from. Additionally, electronic copies of all printed documents are automatically retained for later review by staff.
+PrisonPC makes document identification and distribution easy. All documents printed by inmates are watermarked with clear identification of who printed the document, regardless of the application they've printed from. Additionally, electronic copies of all printed documents are automatically retained for later review by staff.
 
 # Content Delivery
 
 PrisonPC facilitates the secure delivery of interactive educational content, from both on-line sources and through in-house education providers. Applications supporting a range of educational needs, from basic literacy and numeracy through to more advanced education, can be offered securely through PrisonPC, thereby increasing the inmates' opportunity to be better prepared for reintegration into society and gain meaningful employment.
-
-

@@ -10,7 +10,7 @@ url: /security
 
 The PrisonPC Secure Prisoner Interactive Learning System solution has been designed from the ground-up with security as its foundation. It provides an extremely secure and fully functional computer solution for prisoners, denying access to insecure devices (e.g., web-cams, WiFi, USB storage, etc) while enabling education providers to deliver numeracy and literacy training as well as academic and vocational programmes to prisoners.
 
-Security is of paramount importance in any correctional facility and as such PrisonPC employs a [multi-layered default-deny](http://en.wikipedia.org/wiki/Defense_in_depth_(computing)) security policy throughout. In the unlikely event a security mechanism is breached then multiple lines of defence protect the system from further attack by hostile users.
+Security is of paramount importance in any correctional facility and as such PrisonPC employs a [multi-layered default-deny](http://en.wikipedia.org/wiki/Defense_in_depth_(computing)) security policy throughout. In the unlikely event a security mechanism is breached then multiple lines of defence protect the system from further attack by hostile users.
 
 ## Desktop Security
 
@@ -28,12 +28,11 @@ Inmates have their own restricted file storage directory on the server which is 
 
 ## Network Security
 
-PrisonPC's unified management console is protected against electronic intrusion from unauthorised users, or from unauthorised locations, and all authentication information is fully encrypted in transit.
+PrisonPC's unified management console is protected against electronic intrusion from unauthorised users, or from unauthorised locations, and all authentication information is fully encrypted in transit.
 
 ## Device and Media Security
 
 Technologies such as high density USB storage devices and 3G modems have been known to be smuggled into and out of prisons as a means of communication or for access to non-approved media, however PrisonPC blocks all USB communication and storage devices.
-
 
 Only approved and secure devices can be connected to PrisonPC desktops. Unlike off-the-shelf commodity systems, PrisonPC explicitly denies access to foreign devices such as 3G modems, USB 'thumb drives', WiFi controllers, web-cams, and Bluetooth transceivers.
 

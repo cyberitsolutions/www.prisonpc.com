@@ -57,13 +57,12 @@ The intent of these requirements is to ensure the PILS desktop will boot operati
 1. The only secure boot "KEK" key must be the certificate provided by Cyber IT.
 1. The only secure boot "db" key must be the certificate provided by Cyber IT.
 1. The secure boot "KEK" and "db" keyrings MUST NOT include any of these certificates:
-   - https://gitlab.com/kraxel/virt-firmware/-/tree/v24.2/virt/firmware/certs
-   - https://gitlab.com/kraxel/virt-firmware/-/tree/master/virt/firmware/certs
+   - <https://gitlab.com/kraxel/virt-firmware/-/tree/v24.2/virt/firmware/certs>
+   - <https://gitlab.com/kraxel/virt-firmware/-/tree/master/virt/firmware/certs>
 1. The secure boot "dbx" keyring MUST NOT include the certificate provided by Cyber IT.
 1. The secure boot "dbx" keyring MAY include some/all of these certificates;
-   - https://gitlab.com/kraxel/virt-firmware/-/tree/v24.2/virt/firmware/certs
-   - https://gitlab.com/kraxel/virt-firmware/-/tree/master/virt/firmware/certs
+   - <https://gitlab.com/kraxel/virt-firmware/-/tree/v24.2/virt/firmware/certs>
+   - <https://gitlab.com/kraxel/virt-firmware/-/tree/master/virt/firmware/certs>
 1. The UEFI config (e.g. "hit f2/del during boot") MUST NOT allow the end user to change/bypass any of the above-mentioned settings in any way.
 1. Triggering a "factory reset"-type condition MUST NOT allow the end user to change/bypass any of the above-mentioned settings in any way. e.g. by opening the case and shorting a jumper, or by toggling the power switch on and off in quick succession thus triggering a hardware reset.
 1. Network boot MUST be possible (e.g. DHCPv4 + TFTP, or DHCPv4 + HTTP).
-

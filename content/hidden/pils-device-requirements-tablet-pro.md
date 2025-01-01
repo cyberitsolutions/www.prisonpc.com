@@ -12,8 +12,8 @@ images:
 ## Mandatory Requirements
 
 1. 20cm (8") to 25cm (10") display. No particular size in this range is consistently preferred, each facility may have their own preference.
-2. Glass fascia. Vendors are encouraged to consider the option of stronger tempered glass as some correctional facilities consider this a valuable feature.
-3. Internal PSU, or common USB charging. An external PSU is not suitable as it can be used as a flail weapon.
+2. Glass fascia. Vendors are encouraged to consider the option of stronger tempered glass as some correctional facilities consider this a valuable feature.
+3. Internal PSU, or common USB charging. An external PSU is not suitable as it can be used as a flail weapon.
 4. Chassis secured to ensure prisoners can not hide physical contraband, perhaps with [Tamper-Resistant Torx (also known as Torx TR) or pin-in Torx](https://en.wikipedia.org/wiki/Torx).
 5. Internal speakers.
 6. 3.5mm [TRS stereo jack and TS mic, or combined TRRS audio jack](https://en.wikipedia.org/wiki/Phone_connector_(audio)).
@@ -36,7 +36,7 @@ images:
 5. An optional silicone skin, instead of a hardened chassis, for shock protection. Some customers are willing to wear the manual effort required for physical contraband searches.
 6. Tablet rear hand holder.
 7. [Zero-touch enrolment](https://support.google.com/work/android/answer/7514005?hl=en) may be valuable for some correctional facilities, especially those with a considerable number of tablets.
-8. [Android Verified Boot](https://source.android.com/security/verifiedboot) (AVB is common in the majority of CoTS tablet devices).
+8. [Android Verified Boot](https://source.android.com/security/verifiedboot) (AVB is common in the majority of CoTS tablet devices).
 
 - AVB implementation must include [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 - Must not boot if the AVB verification failed at boot time.
