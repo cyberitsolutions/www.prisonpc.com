@@ -94,3 +94,7 @@ weight = 4
 
 [taxonomies]
 # No taxonomies
+
+[module.hugoVersion]
+extended = true
+min = '0.128.0'
