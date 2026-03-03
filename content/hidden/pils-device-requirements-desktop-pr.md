@@ -36,6 +36,8 @@ images:
 
 # Mandatory Firmware Requirements
 
+The Legacy BIOS requirements below must be implemented by the desktop hardware manufacturer, as the necessary customisations are not accessible post-manufacture. The UEFI requirements may be applied by a suitably experienced system integrator or consultant as UEFI and secure boot configuration is typically accessible during the integration and deployment process.
+
 ## Legacy BIOS
 
 PrisonPC supports both legacy BIOS and UEFI firmware, allowing deployment on older or recycled hardware that may not include full UEFI support. While UEFI with secure boot is strongly preferred for new hardware purchases, legacy BIOS hardware remains a viable and supported option where budget or hardware availability constraints apply. The requirements below apply specifically to legacy BIOS devices.
