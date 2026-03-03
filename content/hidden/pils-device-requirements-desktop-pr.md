@@ -38,9 +38,10 @@ images:
 
 ## Legacy BIOS
 
+PrisonPC supports both legacy BIOS and UEFI firmware, allowing deployment on older or recycled hardware that may not include full UEFI support. While UEFI with secure boot is strongly preferred for new hardware purchases, legacy BIOS hardware remains a viable and supported option where budget or hardware availability constraints apply. The requirements below apply specifically to legacy BIOS devices.
+
 1. All firmware config screens disabled. It is acceptable for the firmware to only display information such as the date and time, MAC address, etc. Users must not be able to edit any firmware values.
 1. Firmware password protection disabled. Note that common 'password protection' is insufficient to satisfy the previous requirement.
-1. PrisonPC does not currently support secure boot, but will in future. When it does, secure boot must be configured to include only Cyber IT Solutions' public key in trusted keyring (db), and Microsoft's keys explicitly blacklisted (dbx). Cyber IT Solutions' public key will be available on request.
 1. Permit boot from only PXE (netboot).
 1. Boot must be disabled from internal storage (HDD, SSD, etc) and removable media (USB, CD/DVD, etc) under all circumstances.
 1. WoL (wake-on-LAN) enabled.
