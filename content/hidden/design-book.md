@@ -16,4 +16,4 @@ This publication provides a prescriptive overview of in-cell interactive technol
 
 [Purchase on Amazon.](https://www.amazon.com/Designing-Secure-Prisoner-Computer-Systems/dp/1326763830/)
 
-[Download free PDF.](../design-book.pdf)
+[Download free PDF.](../design-book.pdf), Second Edition
