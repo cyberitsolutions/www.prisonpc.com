@@ -1,0 +1,12 @@
+<section class="section-fork" style="border-bottom: 1px solid #1e3048;">
+  <div style="display: grid; grid-template-columns: repeat(3, 1fr);">
+    {{ range .content.panels }}
+    <a href="{{ .url }}" class="fork-panel">
+      <p class="fork-eyebrow">{{ .eyebrow }}</p>
+      <h3 class="fork-title">{{ .title }}</h3>
+      <p class="fork-text">{{ .text }}</p>
+      <span class="fork-link">{{ .label }} →</span>
+    </a>
+    {{ end }}
+  </div>
+</section>

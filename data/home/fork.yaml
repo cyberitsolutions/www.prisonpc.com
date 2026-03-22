@@ -1,0 +1,27 @@
+enabled: true
+id: "fork"
+
+content:
+  panels:
+    - eyebrow: "Evaluating a full solution"
+      title: "Specifying a PILS for a new or existing facility"
+      text: "You are looking for a comprehensive in-cell interactive system. See the full feature set, security architecture, and deployment model."
+      label: "View full solution"
+      url: "/features"
+
+    - eyebrow: "Looking for a specific capability"
+      title: "IPTV, secure email, or another single feature"
+      text: "PrisonPC provides these as part of a consolidated platform. Understand why a managed approach matters — and what purpose-built looks like."
+      label: "Start here"
+      url: "/why-consolidated"
+
+    - eyebrow: "Designing a facility"
+      title: "Early-stage planning for a new correctional build"
+      text: "Technology assumptions made early in design are hard to reverse. Before committing to a network or device architecture, read this first."
+      label: "Read the brief"
+      url: "/planning-a-facility"
+
+  footer:
+    text: "Not sure where to start? Contact us directly — we are experienced in helping facilities at any stage of the planning process."
+    label: "Get in touch"
+    url: "/#contact"

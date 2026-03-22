@@ -2,14 +2,16 @@ enabled: true
 id: "hero"
 
 content:
-  title: "**PrisonPC**"
-  subtitle: "Secure Prisoner Interactive Learning System"
-  text: "The PrisonPC secure Prisoner Interactive Learning System solution delivers the most secure and fully functional platform for delivery of educational content, IPTV, communication, entertainment, and managed rehabilitation."
+  eyebrow: "Secure correctional technology"
+  title: "Built for security."
+  subtitle: "Designed for rehabilitation."
+  text: "PrisonPC is a purpose-built managed computing platform for correctional facilities — consolidating IPTV, education, email, and device management into a single hardened solution."
+  image: "images/ppc_in_cell_dark.webp"
 
   buttonPrimary:
-    label: "Find out more"
-    url: "business-drivers"
+    label: "View full solution"
+    url: "/features"
 
-  #buttonSecondary:
-  #  label: "Let's talk"
-  #  url: ""
+  buttonSecondary:
+    label: "Business case"
+    url: "/business-drivers"

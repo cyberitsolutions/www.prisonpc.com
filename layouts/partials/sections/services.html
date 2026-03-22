@@ -1,0 +1,29 @@
+<section class="section services" style="padding: 3rem 0;">
+  {{ with .content.title }}
+    <h2 class="services-title">{{ . }}</h2>
+  {{ end }}
+  <div class="services-grid">
+    {{ range $i, $card := .content.cards }}
+      <a href="{{ $card.button.url }}" class="service-card">
+        <div class="service-icon">
+          {{ if eq $i 0 }}{{ partial "icons/sliders.html" }}
+          {{ else if eq $i 1 }}{{ partial "icons/television.html" }}
+          {{ else if eq $i 2 }}{{ partial "icons/envelope-lock.html" }}
+          {{ else if eq $i 3 }}{{ partial "icons/printer.html" }}
+          {{ else if eq $i 4 }}{{ partial "icons/graduation-cap.html" }}
+          {{ else if eq $i 5 }}{{ partial "icons/stack.html" }}
+          {{ end }}
+        </div>
+        {{ with $card.title }}
+          <h3 class="service-card-title">{{ . }}</h3>
+        {{ end }}
+        {{ with $card.text }}
+          <p class="service-card-text">{{ . }}</p>
+        {{ end }}
+        {{ with $card.button }}
+          <span class="service-card-link">{{ .label }} →</span>
+        {{ end }}
+      </a>
+    {{ end }}
+  </div>
+</section>
