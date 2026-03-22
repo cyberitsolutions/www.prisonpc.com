@@ -17,7 +17,7 @@ content:
       text: "Standard free-to-air television, in-house, cable, and audio content is distributed to the inmates' computers, enabling them to select and view individual channels or stations."
       button:
         label: "Learn more"
-        url: "features#integratediptv-and-media"
+        url: "features#integrated-iptv-and-media"
 
     - image: "images/web-email-1.png"
       title: "Filtered Web and Email"
