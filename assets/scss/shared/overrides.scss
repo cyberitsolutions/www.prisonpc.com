@@ -329,12 +329,14 @@ div:has(iframe), video { width: 100%; }
 
 .nav-item-enquiries {
   @media (max-width: 1199px) {
-    padding: 0.5rem 0 0.5rem 1.25rem;
-  }
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
 
-  .btn-primary {
-    display: inline-block;
-    width: auto;
+    .btn-primary {
+      display: inline-block !important;
+      width: auto !important;
+    }
   }
 }
 
@@ -495,10 +497,12 @@ div:has(iframe), video { width: 100%; }
 .nav-item-enquiries {
   @media (max-width: 1199px) {
     padding: 0.5rem 0 0.5rem 1.25rem;
-  }
+    display: block;
+    width: 100%;
 
-  .btn-primary {
-    display: inline-block;
-    width: auto;
+    .btn-primary {
+      display: inline-block !important;
+      width: auto !important;
+    }
   }
 }
