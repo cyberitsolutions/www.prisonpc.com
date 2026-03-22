@@ -2,110 +2,94 @@
 date: "2024-07-19T13:52:10+10:00"
 draft: false
 images:
-- images/features.webp
+- images/features-header.webp
 title: Features
-description: An overview of the core features of the PrisonPC PILS, including central device management, security, TV, email, and web access.
+description: "An overview of PrisonPC's core capabilities: central management, IPTV and media, filtered web and email, print management, and content delivery."
 url: /features
 ---
 
-# Secure Central Management
+# Secure central management
 
-Authorised staff can manage site policies and inmate desktops from a secure central location, confident that inmates cannot circumvent policy or evade monitoring.
+Authorised staff can manage site policies and inmate desktops from a secure central location. Inmates cannot circumvent policy, evade monitoring, or access capabilities beyond what staff have explicitly permitted.
 
-Each desktop can be restricted to a designated inmate or group of inmates, allowing staff to implement any desired rental or reward system without needing to manage physical access.
+PrisonPC is designed to give staff flexibility. Routine tasks and many responses to incidents can be handled remotely, without requiring a cell visit. This reduces workload and avoids placing staff in unnecessarily volatile situations — without replacing the in-person contact that remains central to effective corrections management.
 
-## Enforced Curfews
+Each desktop can be assigned to a designated inmate or group of inmates, allowing staff to implement rental or privilege systems without requiring physical access to cells.
 
-Access to desktops is restricted according to a predefined schedule. During curfews inmates are unable to access the system until the curfew is automatically lifted.
+## Enforced curfews
 
-Individual services such as television, printing, and web browsing, can also have curfews applied, enabling staff to limit access to privileged services.
+Desktop access is restricted according to a predefined schedule. During curfew periods inmates cannot access the system; access is restored automatically when the curfew lifts.
 
-## Passive Discipline
+Individual services (television, printing, web browsing) can have independent curfew schedules applied, giving staff granular control over which capabilities are available at any given time.
 
-Staff can deny inmates individual privileges (email, television, games, etc.) from the secure management console, avoiding the need to visit the inmates' cells to remove equipment and placing themselves in a potentially volatile situation. This can be applied to selected inmates or to groups of inmates.
+## Passive discipline
 
-## Consolidated Device
+Staff can suspend individual inmate privileges (email, television, web access, and others) directly from the management console, without visiting the cell. Suspensions can be applied to individual inmates or to groups.
 
-Many prisons today provide multimedia facilities to inmates in the form of televisions, radios, stereos, gaming consoles, and similar devices. PrisonPC consolidates all these devices into a single unit, reducing the opportunity for inmates to hide contraband, and passes ultimate control to staff to apply automatic curfews to individual features or to revoke privileges entirely.
+## Consolidated device
 
-## Desktop and Software Management
+PrisonPC consolidates television, radio, education, email, web access, and entertainment into a single managed unit per cell, replacing the collection of discrete devices that would otherwise need to be individually secured, monitored, and maintained. [More on why consolidation matters.](/why-consolidated)
 
-From their secure console staff can broadcast pop-up alerts to inmates, remotely control desktops, clandestinely monitor an inmate's activity, and shut-down, power-up, or entirely disable a desktop or group of desktops.
+## Desktop and software management
 
-PrisonPC leverages the power and value of commodity desktop hardware to run applications on the local desktop while not allowing the inmates to access the underlying operating system nor to modify the application software.
+From the secure console, staff can broadcast alerts to individual inmates or groups, remotely monitor or control any desktop, and power up, shut down, or entirely disable individual desktops or groups — all without a cell visit where the situation allows it.
 
----
-
-> PrisonPC puts the power of system management squarely in the hands of staff and, where necessary, allows them to perform their duties remotely and therefore avoid placing themselves in a potentially volatile situation.
+PrisonPC runs applications on the local desktop hardware while preventing inmates from accessing the underlying operating system or modifying any software.
 
 ---
 
-# Integrated IPTV and Media
+> PrisonPC puts the power of system management squarely in the hands of staff, allowing them to perform their duties remotely and avoid placing themselves in potentially volatile situations.
 
-Standard free-to-air television and radio content is distributed to the inmates' PILS desktops, enabling them to select and view individual channels or stations. Specific television programmes deemed unacceptable by prison policy can be blocked by staff while others can  be cached and timeshifted.
+---
 
-## Closed-circuit Channels
+# Integrated IPTV and media
 
-Correctional facilities can broadcast video and audio content on the internal channels for access by the inmates. This content would typically include educational videos, induction videos, time-shifted free-to-air media, and religious services.
+Free-to-air television and radio content is distributed to inmate desktops, with staff able to block specific programmes or channels that conflict with facility policy. Content can also be cached and time-shifted for scheduled delivery.
 
-This is particularly valuable to correctional facilities where inmates of minority religions might otherwise be subjected to intolerance and bullying.
+## Closed-circuit channels
+
+Facilities can broadcast video and audio on internal channels accessible to all or selected inmates. Typical uses include educational content, induction material, time-shifted free-to-air programming, and religious services. Internal channels are particularly valuable in facilities where inmates of minority religions might otherwise face intolerance in communal viewing settings.
 
 ---
 
 > "Access [to televisions] can be a strong incentive to good behaviour and regime participation, and can aid order and control by occupying inmates' time and reducing boredom and tension."
 >
-> -- NOMS Agency Board, UK Ministry of Justice, March 1st 2012
+> — NOMS Agency Board, UK Ministry of Justice, March 2012
 
 ---
 
-## Media Restrictions
+## Media restrictions
 
-PrisonPC PILS desktops can play standard audio CDs and video DVDs, eliminating the need for insecure CD players, stereos, and video players in the inmates' cells.
+Where desktops are equipped with optical drives, inmates can access audio CDs and video DVDs that have been explicitly approved by staff. Unapproved optical media is rejected automatically. All USB storage devices are blocked regardless of content.
 
-Inmates are denied access to unauthorised optical media and to all USB storage devices (thumbdrives and similar). Any such media smuggled into the facility will be rejected by PrisonPC desktops.
-
-# Filtered Web and Email
-
-Email offers a valuable addition to the overall strategy of managed reintegration of inmates with their families and community, and it provides intel staff a powerful tool in their arsenal by allowing them to monitor communications in real time and to review and compare old correspondence with ease.
-
-PrisonPC email can greatly reduce the amount of hand-written postal mail which must often be reviewed manually by staff to ensure it contains no inappropriate content.
-
-## Restricted Email
-
-The secure email service enables inmates to correspond with a restricted list of addressees according to a strict set of rules which align with prison policy.
-
-Address filters alone are not sufficient and so are supplemented by a set of filtering rules which perform deep analysis of each message before allowing delivery.
-
-All incoming and outgoing email passes through the filtering mechanism which automatically quarantines any unapproved or tainted email for staff attention, enabling staff to review and approve or reject individual messages prior to delivery.
-
-And, of course, all incoming and outgoing email is copied to a secure archive through which prison staff are able to view any email at any time, even well after delivery has occurred.
+Staff are encouraged to use internal IPTV channels for media distribution where possible. This provides greater control, removes the handling of physical media, and eliminates physical media as a potential tradable commodity within the facility.
 
 ---
 
-> "a remarkably consistent association has been found between family contact during incarceration and lower recidivism rates."
->
-> -- Rebecca L. Naser & Christy A. Visher
->
-> Family Members' Experiences with Incarceration and Reentry
->
-> 7 Western Criminology Review 20, 21 - 2006
+# Filtered web and email
+
+## Email
+
+The PrisonPC email service gives staff individual control over each inmate's correspondence. Each inmate has their own approved addressee list, which staff can configure independently. Addresses can be designated as privileged (delivered without staff review, such as legal representatives) or trusted (with attachments permitted, such as education providers). All other correspondence is subject to deep content filtering.
+
+Each message — inbound and outbound — passes through the filtering mechanism before delivery. Messages that fail the filter are automatically quarantined for staff review; staff can approve or reject them before delivery.
+
+The filtering mechanism handles the substantial majority of correspondence automatically. All non-privileged correspondence is archived regardless of filter outcome, giving staff full visibility of inmate communications at any time — not just those flagged for attention.
+
+Managed email also significantly reduces the volume of postal mail that staff must manually review.
+
+## Web access
+
+Inmates can be selectively granted access to a limited list of approved websites, such as distance education providers or legal resources. Attempts to access unapproved sites are blocked and logged.
 
 ---
 
-## Web Access
+# Print management
 
-Inmates can be selectively provided with access to browse a limited list of approved websites, such as for on-line education or legal preparation. Attempts to access non-approved sites or pages are rejected.
-
----
-
-> In Europe [over 85% of the population use the Internet](http://www.internetworldstats.com/stats4.htm) and it has been recognised in law as a [fundamental right on a par with freedom of expression](http://www.zdnet.com/eu-lawmakers-vote-to-introduce-net-neutrality-3039648565/). Australia's uptake is higher with [almost 90% of the population](http://www.internetworldstats.com/pacific.htm#au) being Internet users.
+All documents printed by inmates are watermarked with the identity of the inmate who printed them, regardless of the application used. Electronic copies are retained automatically in secure storage, inaccessible to inmates, for staff review.
 
 ---
 
-# Print Management
+# Content delivery
 
-PrisonPC makes document identification and distribution easy. All documents printed by inmates are watermarked with clear identification of who printed the document, regardless of the application they've printed from. Additionally, electronic copies of all printed documents are automatically retained for later review by staff.
-
-# Content Delivery
-
-PrisonPC facilitates the secure delivery of interactive educational content, from both on-line sources and through in-house education providers. Applications supporting a range of educational needs, from basic literacy and numeracy through to more advanced education, can be offered securely through PrisonPC, thereby increasing the inmates' opportunity to be better prepared for reintegration into society and gain meaningful employment.
+PrisonPC supports the secure delivery of educational content from both local providers and online sources. Applications covering basic literacy and numeracy through to vocational and tertiary programmes can be offered through the platform, giving inmates access to the tools they need for meaningful reintegration and employment on release.
