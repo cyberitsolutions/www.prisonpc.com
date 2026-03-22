@@ -1,30 +1,363 @@
-blockquote {
-  margin: 1.25rem 2.5rem;
-}
-.section.video iframe {
-  border-radius: 34px;
-}
-.section.services .card img {
-  margin: auto;
-  border-radius: 25px;
-}
-.rounded25 {
-  border-radius: 25px;
-}
-div:has(iframe), video
-{
-  width: 100%;
-}
+// ---------------------------------------------------------------------------
+// PrisonPC dark navy theme — overrides
+// ---------------------------------------------------------------------------
 
-.blog-content h1 {
-  padding-top: 20px;
-  line-height: 1;
-}
-
-/* ref: https://markus.oberlehner.net/blog/simple-solution-for-anchor-links-behind-sticky-headers/ */
 $sticky-breakpoint: 32em;
 [id] {
   @media (min-height: $sticky-breakpoint) {
-    scroll-margin-top: 100px; // 1
+    scroll-margin-top: 100px;
   }
 }
+
+// ---------------------------------------------------------------------------
+// Global
+// ---------------------------------------------------------------------------
+
+body {
+  background-color: #0d1b2a;
+  color: #7a99b3;
+}
+
+a {
+  color: #3d7ab5;
+  text-decoration: none;
+  &:hover { color: #c5d5e4; }
+}
+
+blockquote {
+  margin: 1.25rem 2.5rem;
+  padding: 1rem 1.5rem;
+  border-left: 2px solid #3d7ab5;
+  color: #6a8aa5;
+  font-style: normal;
+}
+
+// ---------------------------------------------------------------------------
+// Navbar
+// ---------------------------------------------------------------------------
+
+.navbar {
+  background-color: #0d1b2a !important;
+  border-bottom: 1px solid #1e3048;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  .navbar-brand img {
+    width: auto;
+    max-height: calc(2.4rem + .6vw);
+  }
+
+  .nav-link {
+    color: #6a8aa5 !important;
+    font-size: 0.8rem;
+    letter-spacing: 0.03em;
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+    &:hover { color: #e8edf2 !important; }
+    &.active { color: #e8edf2 !important; }
+  }
+
+  // Enquiries button — not a nav-link, so no !important fight
+  .btn-primary {
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    background-color: #185fa5;
+    border-color: #185fa5;
+    color: #ffffff;
+    border-radius: 0;
+    font-weight: 500;
+    &:hover {
+      background-color: #1a6fbf;
+      border-color: #1a6fbf;
+      color: #ffffff;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Hero section
+// ---------------------------------------------------------------------------
+
+.section.hero {
+  background-color: #0d1b2a;
+  border-bottom: 1px solid #1e3048;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  .hero-title {
+    color: #e8edf2;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+
+  p { color: #7a99b3; }
+
+  .btn-primary {
+    background-color: #185fa5;
+    border-color: #185fa5;
+    color: #e8edf2;
+    border-radius: 0;
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    &:hover { background-color: #1a6fbf; }
+  }
+
+  .btn-outline-primary {
+    border-color: #2d4d68;
+    color: #7a99b3;
+    border-radius: 0;
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    &:hover {
+      background-color: #111f2e;
+      color: #c5d5e4;
+      border-color: #3d7ab5;
+    }
+  }
+
+  .carousel { display: none; }
+}
+
+// ---------------------------------------------------------------------------
+// Fork panels
+// ---------------------------------------------------------------------------
+
+.fork-panel {
+  display: block;
+  padding: 2rem 1.75rem;
+  border-right: 1px solid #1e3048;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #111f2e;
+
+    .fork-title { color: #e8edf2; }
+    .fork-link { color: #7ab3e0; }
+  }
+}
+
+.fork-eyebrow {
+  font-size: 0.7rem;
+  color: #2d5a80;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.fork-title {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #c5d5e4;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+  transition: color 0.15s ease;
+}
+
+.fork-text {
+  font-size: 0.8rem;
+  color: #4d6e86;
+  line-height: 1.65;
+  margin-bottom: 1.25rem;
+}
+
+.fork-link {
+  font-size: 0.7rem;
+  color: #3d7ab5;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: color 0.15s ease;
+}
+
+// ---------------------------------------------------------------------------
+// Services / feature cards
+// ---------------------------------------------------------------------------
+
+.services-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #c5d5e4;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  padding: 0 1.75rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid #1e3048;
+  border-left: 1px solid #1e3048;
+}
+
+.service-card {
+  display: block;
+  padding: 1.75rem;
+  border-right: 1px solid #1e3048;
+  border-bottom: 1px solid #1e3048;
+  text-decoration: none;
+  background-color: #0d1b2a;
+  transition: background-color 0.15s ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #111f2e;
+
+    .service-card-title { color: #e8edf2; }
+    .service-card-link { color: #7ab3e0; }
+    .service-icon { color: #7ab3e0; }
+  }
+}
+
+.service-icon {
+  color: #3d7ab5;
+  margin-bottom: 1.25rem;
+  width: 32px;
+  height: 32px;
+  transition: color 0.15s ease;
+}
+
+.service-card-title {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #c5d5e4;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.6rem;
+  transition: color 0.15s ease;
+}
+
+.service-card-text {
+  font-size: 0.8rem;
+  color: #4d6e86;
+  line-height: 1.65;
+  margin-bottom: 1.25rem;
+}
+
+.service-card-link {
+  font-size: 0.7rem;
+  color: #3d7ab5;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: color 0.15s ease;
+}
+
+// ---------------------------------------------------------------------------
+// Testimonials
+// ---------------------------------------------------------------------------
+
+.section.testimonials {
+  background-color: #111f2e;
+  border-top: 1px solid #1e3048;
+  border-bottom: 1px solid #1e3048;
+
+  .text-primary { color: #c5d5e4 !important; }
+  .text-black-61 { color: #6a8aa5 !important; }
+
+  blockquote, p { color: #6a8aa5; }
+}
+
+// ---------------------------------------------------------------------------
+// Single (inner) pages
+// ---------------------------------------------------------------------------
+
+.section.blog-single {
+  background-color: #0d1b2a;
+
+  .blog-content {
+    max-width: 780px;
+    font-size: 1rem;
+    color: #7a99b3;
+    line-height: 1.75;
+    text-align: left !important;
+
+    h1, h2 {
+      color: #e8edf2;
+      font-weight: 500;
+      font-size: 1.3rem;
+      padding-top: 2rem;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid #1e3048;
+      margin-bottom: 1rem;
+      line-height: 1.3;
+      text-align: left;
+
+      &::before {
+        content: '';
+        display: block;
+        width: 32px;
+        height: 2px;
+        background-color: #185fa5;
+        margin-bottom: 0.75rem;
+      }
+    }
+
+    h3 {
+      color: #c5d5e4;
+      font-weight: 500;
+      font-size: 1rem;
+      padding-top: 1.25rem;
+      margin-bottom: 0.5rem;
+      text-align: left;
+    }
+
+    p {
+      margin-bottom: 1.25rem;
+      text-align: left;
+    }
+
+    a { color: #3d7ab5; &:hover { color: #c5d5e4; } }
+
+    ul, ol {
+      color: #7a99b3;
+      padding-left: 1.5rem;
+      margin-bottom: 1.25rem;
+      li { margin-bottom: 0.4rem; }
+    }
+
+    blockquote {
+      border-left: 2px solid #3d7ab5;
+      padding: 0.75rem 1.25rem;
+      margin: 1.5rem 0;
+      color: #6a8aa5;
+      font-style: normal;
+      text-align: left;
+      p { margin-bottom: 0; }
+    }
+
+    img {
+      border-radius: 0 !important;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Footer
+// ---------------------------------------------------------------------------
+
+.shared.footer {
+  background-color: #0a1520 !important;
+  border-top: 1px solid #1e3048;
+
+  h4, h5 { color: #c5d5e4 !important; }
+  .text-primary { color: #c5d5e4 !important; }
+  .text-black-61 { color: #4d6e86 !important; }
+
+  a {
+    color: #4d6e86 !important;
+    &:hover { color: #c5d5e4 !important; }
+  }
+
+  .bg-blue-light { background-color: #0a1520 !important; }
+}
+
+// ---------------------------------------------------------------------------
+// Utilities
+// ---------------------------------------------------------------------------
+
+.rounded25 { border-radius: 0 !important; }
+.section.video iframe { border-radius: 0; }
+div:has(iframe), video { width: 100%; }

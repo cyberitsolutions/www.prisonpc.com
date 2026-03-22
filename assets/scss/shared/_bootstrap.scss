@@ -7,13 +7,83 @@
 
 $font-family-base: "Inter", sans-serif;
 
-$primary: #1a2b6dff;
-$secondary: #27a3ff29;
-$danger: #2782c5ff;
-$light: #ffffff;
+// -- Colour palette -----------------------------------------------------------
+// Navy scale
+$navy-900: #0d1b2a;
+$navy-800: #111f2e;
+$navy-700: #141f2b;
+$navy-600: #1e3048;
+$navy-500: #2d4d68;
+$navy-400: #3d7ab5;
+$navy-300: #6a8aa5;
+$navy-200: #7a99b3;
+$navy-100: #c5d5e4;
+$navy-50:  #e8edf2;
+
+// Bootstrap role assignments
+$primary:   $navy-400;   // accent blue — links, buttons, highlights
+$secondary: $navy-500;   // muted interactive elements
+$light:     $navy-50;    // light text on dark backgrounds
+$dark:      $navy-900;   // body background
+$danger:    #c0392b;
+$success:   #27ae60;
+$warning:   #f39c12;
+$info:      $navy-300;
+
+// Typography
+$body-bg:              $navy-900;
+$body-color:           $navy-200;
+$headings-color:       $navy-50;
+$link-color:           $navy-400;
+$link-hover-color:     $navy-100;
+
+// Borders
+$border-color:         $navy-600;
+$border-radius:        0;
+$border-radius-sm:     0;
+$border-radius-lg:     0;
+$border-radius-pill:   0;
+$card-border-radius:   0;
+
+// Navbar
+$navbar-dark-color:          $navy-300;
+$navbar-dark-hover-color:    $navy-50;
+$navbar-dark-active-color:   $navy-50;
+$navbar-dark-brand-color:    $navy-50;
+$navbar-padding-y:           1rem;
+$navbar-light-color:         $navy-300;
+$navbar-light-hover-color:   $navy-50;
+$navbar-light-active-color:  $navy-50;
+$navbar-light-brand-color:   $navy-50;
+
+// Cards
+$card-bg:              $navy-800;
+$card-border-color:    $navy-600;
+$card-color:           $navy-200;
+$card-cap-bg:          $navy-700;
+
+// Buttons
+$btn-border-radius:      0;
+$btn-border-radius-sm:   0;
+$btn-border-radius-lg:   0;
+$btn-padding-x:          1.25rem;
+$btn-padding-y:          0.5rem;
+$btn-font-size:          0.8rem;
+$btn-letter-spacing:     0.04em;
+
+// Inputs
+$input-bg:             $navy-800;
+$input-color:          $navy-100;
+$input-border-color:   $navy-500;
+$input-placeholder-color: $navy-300;
+$input-focus-bg:       $navy-700;
+$input-focus-border-color: $navy-400;
+$input-border-radius:  0;
+
+// Footer
+$footer-bg:            $navy-800;
 
 // scss-docs-start import-stack
-// Configuration
 @import "../../bootstrap/scss/functions";
 @import "../../bootstrap/scss/variables";
 @import "../../bootstrap/scss/mixins";

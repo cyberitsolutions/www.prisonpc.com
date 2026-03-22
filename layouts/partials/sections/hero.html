@@ -1,44 +1,36 @@
-<section class="section hero py-5">
+<section class="section hero" style="padding: 4rem 0 3rem; border-bottom: 1px solid #1e3048;">
   <div class="container">
-    <div class="row flex-column flex-xl-row-reverse">
-      <div class="col-12 col-xl-6  d-flex flex-column justify-content-center hero-image">
-        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            {{ $first := true }}
-            {{ range site.Params.images }}
-              {{ if $first }}
-                  <div class="carousel-item active">
-                  {{ $first = false }}
-              {{ else }}
-                  <div class="carousel-item">
-              {{ end }}
-                  {{ with resources.Get . }}
-                  <img class="img-fluid rounded25" src="{{ .Permalink }}" alt="">
-                  {{ end }}
-            </div>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
+    <div class="row">
+      <div class="col-12 col-xl-7 d-flex flex-column justify-content-center">
+        {{ with .content.eyebrow }}
+          <p style="font-size: 0.7rem; color: #3d7ab5; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 1rem;">{{ . | markdownify }}</p>
+        {{ end }}
         {{ with .content.title }}
-          <h3 class="hero-title fw-bold display-1 text-primary text-center text-xl-start">{{ . | markdownify }}</h3>
+          <h1 class="hero-title" style="font-size: clamp(1.8rem, 3.5vw, 2.6rem); font-weight: 500; color: #e8edf2; line-height: 1.2; margin-bottom: 0.25rem;">{{ . | markdownify }}</h1>
         {{ end }}
         {{ with .content.subtitle }}
-          <h4 class="hero-title display-4 text-primary text-center text-xl-start pb-4">{{ . | markdownify }}</h4>
+          <h2 style="font-size: clamp(1.4rem, 2.5vw, 2rem); font-weight: 500; color: #3d7ab5; line-height: 1.2; margin-bottom: 0;">{{ . | markdownify }}</h2>
         {{ end }}
+        <div style="width: 48px; height: 2px; background-color: #3d7ab5; margin: 1.5rem 0;"></div>
         {{ with .content.text }}
-          <p class="text-center text-black-61 text-xl-start pb-4">{{ . | markdownify }}</p>
+          <p style="font-size: 0.9rem; color: #7a99b3; line-height: 1.75; max-width: 520px; margin-bottom: 1.75rem;">{{ . | markdownify }}</p>
         {{ end }}
-        <div class="d-flex flex-column flex-xl-row">
+        <div class="d-flex flex-column flex-xl-row gap-2">
           {{ with .content.buttonPrimary }}
-            <a class="btn btn-primary text-light px-4 my-1" href="{{ .url }}">{{ .label }}</a>
+            <a class="btn btn-primary px-4" href="{{ .url }}">{{ .label }}</a>
           {{ end }}
           {{ with .content.buttonSecondary }}
-            <a class="btn btn-outline-primary px-4 my-1 ms-xl-4" href="{{ .url }}">{{ .label }}<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
+            <a class="btn btn-outline-primary px-4" href="{{ .url }}">{{ .label }}</a>
           {{ end }}
         </div>
       </div>
+      {{ with .content.image }}
+        <div class="col-12 col-xl-5 d-flex align-items-center justify-content-center pt-5 pt-xl-0">
+          {{ with resources.Get . }}
+            <img class="img-fluid" src="{{ .Permalink }}" alt="" style="opacity: 0.85; max-height: 340px; object-fit: contain;">
+          {{ end }}
+        </div>
+      {{ end }}
     </div>
   </div>
 </section>

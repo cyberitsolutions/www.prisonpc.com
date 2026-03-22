@@ -1,50 +1,47 @@
-<footer class="shared footer bg-blue-light py-5">
+<footer class="shared footer py-5">
   <div class="container">
-    <div class="row pb-5">
+    <div class="row pb-4">
       <div class="col-12 col-xl-4 text-center text-xl-start pb-4">
-        <h4 class="fs-4 fw-semibold text-primary">{{ .Site.Title }}</h4>
-        <p class="small text-black-61">{{ .Site.Params.description }}</p>
-        {{ with .Site.Params.social }}
-        <ul class="d-flex justify-content-center justify-content-xl-start list-unstyled">
-          {{ with .dribbble }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/dribbble.html" }}</a></li>{{ end }}
-          {{ with .instagram }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/instagram.html" }}</a></li>{{ end }}
-          {{ with .facebook }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/facebook.html" }}</a></li>{{ end }}
-          {{ with .twitter }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/twitter.html" }}</a></li>{{ end }}
-        </ul>
-        {{ end }}
+        <h4 class="fs-6 fw-500 mb-2">{{ .Site.Title }}</h4>
+        <p class="small mb-0">{{ .Site.Params.description }}</p>
       </div>
       <div class="col-12 col-xl-2 text-center text-xl-start pb-4">
-        <h5 class="fs-6 fw-semibold text-primary">About us</h5>
+        <h5 class="fs-6 fw-500 mb-3" style="color: #c5d5e4; font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase;">Navigation</h5>
         <ul class="list-unstyled">
           {{ range .Site.Menus.footer }}
-            <li class="">
-              <a class="small text-black-61 text-decoration-none" href="{{ .URL }}">{{ .Name }}</a>
+            <li class="mb-1">
+              <a class="small text-decoration-none" href="{{ .URL }}">{{ .Name }}</a>
             </li>
           {{ end }}
         </ul>
       </div>
       <div class="col-12 col-xl-3 text-center text-xl-start pb-4">
-        <h5 class="fs-6 fw-semibold text-primary">Location</h5>
+        <h5 class="fs-6 fw-500 mb-3" style="color: #c5d5e4; font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase;">Location</h5>
         <ul class="list-unstyled">
           {{ range .Site.Params.location }}
-            <li class="d-flex justify-content-center justify-content-xl-start mb-2">
-              <div class="d-flex align-items-center text-primary">{{ partial "icons/geo-alt.html" }}</div>
-              <p class="small text-black-61 m-0 ps-2">{{ . }}</p>
+            <li class="mb-2">
+              <p class="small m-0">{{ . }}</p>
             </li>
           {{ end }}
         </ul>
       </div>
       <div class="col-12 col-xl-3 text-center text-xl-start pb-4">
-        <h5 class="fs-6 fw-semibold text-primary">Contact us</h5>
+        <h5 class="fs-6 fw-500 mb-3" style="color: #c5d5e4; font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase;">Contact</h5>
         {{ range .Site.Params.contact }}
-          <p class="small text-black-61 mb-1">{{- if .url -}}<a href="{{ safe.URL .url }}">{{ .content }}</a>{{- else -}}{{ . }}{{- end -}}</p>
+          <p class="small mb-1">
+            {{- if .url -}}
+              <a href="{{ safe.URL .url }}">{{ .content }}</a>
+            {{- else -}}
+              {{ . }}
+            {{- end -}}
+          </p>
         {{ end }}
       </div>
     </div>
-    <div class="row">
+    <div class="row" style="border-top: 1px solid #1e3048; padding-top: 1.25rem;">
       <div class="col-12">
         {{ with .Site.Params.copyright }}
-          <p class="small text-black-61 text-center">{{ . | safeHTML }}</p>
+          <p class="small text-center mb-0" style="color: #2d4d68;">{{ . | safeHTML }}</p>
         {{ end }}
       </div>
     </div>
