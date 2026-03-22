@@ -40,16 +40,6 @@ A collection of short instructional videos illustrating common risks and associa
 
 ---
 
-## Architecture diagrams
-
-Technical reference diagrams for engineers and integrators.
-
-[PrisonPC network architecture](/prisonpc-network-architecture) — illustrates how inmate and staff networks are isolated and where third-party services can be integrated.
-
-[PrisonPC email architecture](/prisonpc-email-architecture) — illustrates how email is handled through PrisonPC and how staff can manage and review inmate correspondence.
-
----
-
 ## Device security requirements
 
 Detailed security requirements for PILS client hardware, covering desktop and tablet profiles.
