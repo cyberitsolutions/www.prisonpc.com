@@ -44,4 +44,4 @@ If your design is more advanced, it is still worth understanding what is possibl
 
 In either case, we are experienced in working with facility designers, security consultants, and procurement teams at every stage of the process. A conversation early costs nothing. A conversation after construction is complete costs considerably more.
 
-[Download the reference guide](/library) &nbsp;·&nbsp; [Get in touch](/#enquiries)
+{{< cta a="Download the reference guide" a-url="/library" b="Get in touch" b-url="/#enquiries" >}}

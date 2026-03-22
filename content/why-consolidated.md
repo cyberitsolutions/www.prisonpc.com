@@ -46,4 +46,4 @@ A consolidated platform does not just bundle these capabilities together for con
 
 For facilities where staff safety, contraband control, and operational efficiency are genuine priorities rather than background considerations, that consolidation is not a nice-to-have. It is the architecture that makes the rest of it work.
 
-[View full feature overview](/features) &nbsp;·&nbsp; [Planning a facility](/planning-a-facility) &nbsp;·&nbsp; [Get in touch](/#enquiries)
+{{< cta a="View full feature overview" a-url="/features" b="Planning a facility" b-url="/planning-a-facility" c="Get in touch" c-url="/#enquiries" >}}
