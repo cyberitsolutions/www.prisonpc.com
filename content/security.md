@@ -2,48 +2,48 @@
 date: "2024-07-19T13:50:32+10:00"
 draft: false
 images:
-- images/security.webp
+- images/security-header.webp
 title: Hardened Security
-description: "Details of PrisonPC's security features: explicit allow-listing for internet and removal media, secure chassis, detailed logging, and locked-down software."
+description: "PrisonPC is designed from the ground up with security as its foundation; a multi-layered, default-deny architecture built specifically for the correctional environment."
 url: /security
 ---
 
-The PrisonPC Secure Prisoner Interactive Learning System solution has been designed from the ground-up with security as its foundation. It provides an extremely secure and fully functional computer solution for prisoners, denying access to insecure devices (e.g., web-cams, WiFi, USB storage, etc) while enabling education providers to deliver numeracy and literacy training as well as academic and vocational programmes to prisoners.
+PrisonPC employs a [multi-layered default-deny](https://en.wikipedia.org/wiki/Defense_in_depth_(computing)) security policy throughout. Each layer is designed to operate independently, so that if one mechanism is bypassed, the layers beneath it continue to protect the system. No single point of failure exposes the facility to risk.
 
-Security is of paramount importance in any correctional facility and as such PrisonPC employs a [multi-layered default-deny](http://en.wikipedia.org/wiki/Defense_in_depth_(computing)) security policy throughout. In the unlikely event a security mechanism is breached then multiple lines of defence protect the system from further attack by hostile users.
+The security architecture covers the full stack: desktop hardware, physical peripherals, server infrastructure, network topology, device connectivity, and media access. Each is addressed by design, not by policy alone.
 
-## Desktop Security
+## Desktop security
 
-PrisonPC desktop computers contain no writable storage media (such as hard-drive, USB storage, or writable DVD/CD) making them resilient to any method of permanent user modification or unauthorised changes. Desktops are invulnerable to third-party virus, spyware, keyloggers or other malware attack and to attempts by inmates to install any applications.
+PrisonPC desktops contain no writable storage; no hard drive, no USB storage, no writable optical media. The operating environment is read-only and immutable. Inmates cannot install software, modify system configuration, or persist any changes across sessions. The desktop state is identical at every login.
 
-## Physical Security
+This architecture makes the desktops inherently resistant to malware, keyloggers, spyware, and any attempt at unauthorised software installation; not because of antivirus software, but because there is nothing to write to.
 
-AiO (All-in-One) desktop computers are recommended for correctional facilities as they greatly restrict the capacity of prisoners concealing physical contraband within the computer chassis.
+## Physical security
 
-The PrisonPC Safety Pack includes a keyboard, mouse, IR remote, network cable, headphones, power cable, and audio cable designed with the physical safety of both prisoners and staff as a high priority. The keyboard and mouse are compact and light-weight, and all cables are 30cm in length. These features reduce the risk of using the devices as weapons or for self harm.
+All-in-One desktop computers are recommended for correctional deployments. The consolidated chassis significantly reduces the voids and removable components that separate tower systems offer for contraband concealment.
 
-## Server Security
+The PrisonPC peripheral kit (keyboard, mouse, network cable, headphones, power and audio cables) is designed with staff and inmate safety as the primary consideration. All cables are 30cm in length, reducing ligature risk. The keyboard and mouse are compact and lightweight, reducing their utility as improvised weapons.
 
-Inmates have their own restricted file storage directory on the server which is securely isolated from all other inmates. Only the relevant inmate and authorised corrections staff are able to gain access to inmates' data.
+## Server security
 
-## Network Security
+Each inmate's file storage is isolated on the servers, accessible only to that inmate and to authorised staff. Inmates cannot access each other's data, and no shared storage exists that could be used to pass files between users.
 
-PrisonPC's unified management console is protected against electronic intrusion from unauthorised users, or from unauthorised locations, and all authentication information is fully encrypted in transit.
+Staff retain full visibility and access to all inmate storage. Archival snapshots with a managed retention policy additionally allow staff to access files that have since been deleted by inmates.
 
-## Device and Media Security
+## Network security
 
-Technologies such as high density USB storage devices and 3G modems have been known to be smuggled into and out of prisons as a means of communication or for access to non-approved media, however PrisonPC blocks all USB communication and storage devices.
+The management console is protected against intrusion from unauthorised users and unauthorised network locations. All system authentication is encrypted in transit. The inmate network and the staff network are architecturally separated; staff systems are not reachable from inmate desktops under any circumstances.
 
-Only approved and secure devices can be connected to PrisonPC desktops. Unlike off-the-shelf commodity systems, PrisonPC explicitly denies access to foreign devices such as 3G modems, USB 'thumb drives', WiFi controllers, web-cams, and Bluetooth transceivers.
+## Device and media security
 
-## Optical Media
+PrisonPC operates on an explicit allow-list model for connected devices. Any device not on the approved list (USB storage, mobile broadband adaptors, WiFi controllers, webcams, Bluetooth transceivers) is rejected at connection and triggers an immediate staff alert. This is enforced through software policy rather than hardware customisation, with the exception of insecure components such as hard drives and webcams which are physically removed from desktops prior to deployment.
 
-Inmates are restricted from making use of unapproved DVDs. Attempts by an inmate to use media not approved for their use will trigger an alert for staff attention.
+Optical media follows the same model. Inmates can only access discs that have been explicitly approved by staff for inmate use. Any attempt to use unapproved media triggers a staff alert.
 
-## Event Logging and Monitoring
+## Event logging and monitoring
 
-Extensive logging of user sessions is recorded in the system logs for prison staff to audit later if required. Prison staff can remotely monitor or control inmate desktops for remote support or clandestine monitoring.
+All user sessions are logged in full. Staff can review session logs retrospectively, monitor desktops in real time, broadcast alerts to individual or groups of users, and remotely control or shut down any desktop without physical access to the cell.
 
-> "Security best practices aren't aspirational goals, they're the baseline of professional competence. [They] aren't the ceiling you reach for, they're the floor you stand on."
+> "Security best practices aren't aspirational goals, they're the baseline of professional competence. They aren't the ceiling you reach for, they're the floor you stand on."
 >
-> -- Barry Anderson - Security Architect, Cisco Systems
+> — Barry Anderson, Security Architect, Cisco Systems
