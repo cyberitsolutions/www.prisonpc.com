@@ -14,7 +14,4 @@ Detailed information on the potential threats of in-cell interactive technology 
 
 Select the device profile for details of its specific requirements:
 
-<!-- markdownlint-disable MD039 MD045 -->
-[![](/images/aio_large.png) Desktop profile](/pils-device-requirements-desktop-pr)
-[![](/images/tablet.png) Tablet profile](/pils-device-requirements-tablet-pro)
-<!-- markdownlint-enable  MD039 MD045 -->
+{{< device-cards >}}
