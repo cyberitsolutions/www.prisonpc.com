@@ -2,7 +2,7 @@
 date: "2025-01-01T00:00:00+10:00"
 draft: false
 title: Planning a facility
-description: "Technology decisions made early in the design of a correctional facility are among the most consequential, and the hardest to reverse."
+description: "In-cell technology specified too late in a facility design is expensive to retrofit and rarely delivers what a purpose-built solution would have."
 url: /planning-a-facility
 images:
 - images/planning-header.webp
