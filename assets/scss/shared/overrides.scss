@@ -337,3 +337,168 @@ div:has(iframe), video { width: 100%; }
     width: auto;
   }
 }
+
+// ---------------------------------------------------------------------------
+// Fork panels
+// ---------------------------------------------------------------------------
+
+.fork-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.fork-panel {
+  display: block;
+  padding: 2rem 1.75rem;
+  border-right: 1px solid #1e3048;
+  border-bottom: 1px solid #1e3048;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+  cursor: pointer;
+
+  @media (max-width: 767px) {
+    border-right: none;
+  }
+
+  &:hover {
+    background-color: #111f2e;
+    .fork-title { color: #e8edf2; }
+    .fork-link { color: #7ab3e0; }
+  }
+}
+
+.fork-eyebrow {
+  font-size: 0.7rem;
+  color: #2d5a80;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.fork-title {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #c5d5e4;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+  transition: color 0.15s ease;
+}
+
+.fork-text {
+  font-size: 0.8rem;
+  color: #4d6e86;
+  line-height: 1.65;
+  margin-bottom: 1.25rem;
+}
+
+.fork-link {
+  font-size: 0.7rem;
+  color: #3d7ab5;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: color 0.15s ease;
+}
+
+// ---------------------------------------------------------------------------
+// Services / feature cards
+// ---------------------------------------------------------------------------
+
+.services-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #c5d5e4;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  padding: 0 1.75rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid #1e3048;
+  border-left: 1px solid #1e3048;
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+    border-left: none;
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.service-card {
+  display: block;
+  padding: 1.75rem;
+  border-right: 1px solid #1e3048;
+  border-bottom: 1px solid #1e3048;
+  text-decoration: none;
+  background-color: #0d1b2a;
+  transition: background-color 0.15s ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #111f2e;
+    .service-card-title { color: #e8edf2; }
+    .service-card-link { color: #7ab3e0; }
+    .service-icon { color: #7ab3e0; }
+  }
+}
+
+.service-icon {
+  color: #3d7ab5;
+  margin-bottom: 1.25rem;
+  width: 32px;
+  height: 32px;
+  transition: color 0.15s ease;
+}
+
+.service-card-title {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #c5d5e4;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.6rem;
+  transition: color 0.15s ease;
+}
+
+.service-card-text {
+  font-size: 0.8rem;
+  color: #4d6e86;
+  line-height: 1.65;
+  margin-bottom: 1.25rem;
+}
+
+.service-card-link {
+  font-size: 0.7rem;
+  color: #3d7ab5;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: color 0.15s ease;
+}
+
+// ---------------------------------------------------------------------------
+// Enquiries button — mobile alignment
+// ---------------------------------------------------------------------------
+
+.nav-item-enquiries {
+  @media (max-width: 1199px) {
+    padding: 0.5rem 0 0.5rem 1.25rem;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    width: auto;
+  }
+}
