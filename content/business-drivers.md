@@ -2,7 +2,7 @@
 date: "2024-07-19T12:38:43+10:00"
 draft: false
 images:
-- images/business-drivers.webp
+- images/business-drivers-header.webp
 title: The business case for PrisonPC
 description: "The operational, financial, and social arguments for deploying a purpose-built managed computing platform in a correctional facility."
 url: /business-drivers
