@@ -2,6 +2,7 @@
 // PrisonPC dark navy theme — overrides
 // ---------------------------------------------------------------------------
 
+// Smooth scrolling offset for sticky nav
 $sticky-breakpoint: 32em;
 [id] {
   @media (min-height: $sticky-breakpoint) {
@@ -42,9 +43,13 @@ blockquote {
   padding-top: 1rem;
   padding-bottom: 1rem;
 
-  .navbar-brand img {
-    width: auto;
-    max-height: calc(2.4rem + .6vw);
+  .navbar-brand {
+    img {
+      width: auto;
+      max-height: calc(2.4rem + .6vw);
+      // Invert logo to work on dark background
+      filter: brightness(0) invert(1);
+    }
   }
 
   .nav-link {
@@ -57,19 +62,17 @@ blockquote {
     &.active { color: #e8edf2 !important; }
   }
 
-  // Enquiries button — not a nav-link, so no !important fight
+  // "Book a call" button in nav
   .btn-primary {
     font-size: 0.8rem;
     letter-spacing: 0.04em;
     background-color: #185fa5;
     border-color: #185fa5;
-    color: #ffffff;
+    color: #e8edf2;
     border-radius: 0;
-    font-weight: 500;
     &:hover {
       background-color: #1a6fbf;
       border-color: #1a6fbf;
-      color: #ffffff;
     }
   }
 }
@@ -115,132 +118,71 @@ blockquote {
     }
   }
 
+  // Hide the carousel — replaced by static hero image
   .carousel { display: none; }
-}
-
-// ---------------------------------------------------------------------------
-// Fork panels
-// ---------------------------------------------------------------------------
-
-.fork-panel {
-  display: block;
-  padding: 2rem 1.75rem;
-  border-right: 1px solid #1e3048;
-  text-decoration: none;
-  transition: background-color 0.15s ease;
-  cursor: pointer;
-
-  &:hover {
-    background-color: #111f2e;
-
-    .fork-title { color: #e8edf2; }
-    .fork-link { color: #7ab3e0; }
-  }
-}
-
-.fork-eyebrow {
-  font-size: 0.7rem;
-  color: #2d5a80;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  font-weight: 500;
-  margin-bottom: 0.75rem;
-}
-
-.fork-title {
-  font-size: 0.95rem;
-  font-weight: 500;
-  color: #c5d5e4;
-  line-height: 1.4;
-  margin-bottom: 0.75rem;
-  transition: color 0.15s ease;
-}
-
-.fork-text {
-  font-size: 0.8rem;
-  color: #4d6e86;
-  line-height: 1.65;
-  margin-bottom: 1.25rem;
-}
-
-.fork-link {
-  font-size: 0.7rem;
-  color: #3d7ab5;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  transition: color 0.15s ease;
 }
 
 // ---------------------------------------------------------------------------
 // Services / feature cards
 // ---------------------------------------------------------------------------
 
-.services-title {
-  font-size: 1rem;
-  font-weight: 500;
-  color: #c5d5e4;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  margin-bottom: 1.5rem;
-  padding: 0 1.75rem;
-}
-
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  border-top: 1px solid #1e3048;
-  border-left: 1px solid #1e3048;
-}
-
-.service-card {
-  display: block;
-  padding: 1.75rem;
-  border-right: 1px solid #1e3048;
-  border-bottom: 1px solid #1e3048;
-  text-decoration: none;
+.section.services {
   background-color: #0d1b2a;
-  transition: background-color 0.15s ease;
-  cursor: pointer;
+  padding-top: 0;
 
-  &:hover {
+  h2 { color: #e8edf2; }
+
+  .card {
     background-color: #111f2e;
+    border: 1px solid #1e3048;
+    border-radius: 0;
+    height: 100%;
 
-    .service-card-title { color: #e8edf2; }
-    .service-card-link { color: #7ab3e0; }
-    .service-icon { color: #7ab3e0; }
+    .card-body {
+      padding: 1.5rem;
+    }
+
+    .card-title {
+      color: #c5d5e4;
+      font-size: 0.9rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.5rem;
+
+      // Accent line above title
+      &::before {
+        content: '';
+        display: block;
+        width: 24px;
+        height: 2px;
+        background-color: #185fa5;
+        margin-bottom: 0.75rem;
+      }
+    }
+
+    .card-text {
+      color: #4d6e86;
+      font-size: 0.8rem;
+      line-height: 1.6;
+    }
+
+    img {
+      border-radius: 0 !important;
+      opacity: 0.85;
+    }
+
+    .btn {
+      font-size: 0.75rem;
+      letter-spacing: 0.06em;
+      color: #3d7ab5;
+      border-color: #2d4d68;
+      border-radius: 0;
+      &:hover {
+        background-color: #1e3048;
+        color: #c5d5e4;
+      }
+    }
   }
-}
-
-.service-icon {
-  color: #3d7ab5;
-  margin-bottom: 1.25rem;
-  width: 32px;
-  height: 32px;
-  transition: color 0.15s ease;
-}
-
-.service-card-title {
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: #c5d5e4;
-  letter-spacing: 0.02em;
-  margin-bottom: 0.6rem;
-  transition: color 0.15s ease;
-}
-
-.service-card-text {
-  font-size: 0.8rem;
-  color: #4d6e86;
-  line-height: 1.65;
-  margin-bottom: 1.25rem;
-}
-
-.service-card-link {
-  font-size: 0.7rem;
-  color: #3d7ab5;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  transition: color 0.15s ease;
 }
 
 // ---------------------------------------------------------------------------
@@ -265,12 +207,33 @@ blockquote {
 .section.blog-single {
   background-color: #0d1b2a;
 
+  // Featured image
+  img.img-fluid {
+    border-radius: 0 !important;
+    opacity: 0.9;
+    margin-bottom: 1rem;
+  }
+
+  // Page title
+  h2.display-1 {
+    color: #e8edf2 !important;
+    font-weight: 500;
+    font-size: clamp(1.6rem, 3vw, 2.5rem);
+    text-align: left !important;
+  }
+
+  // Description
+  .text-black-61 {
+    color: #6a8aa5 !important;
+    text-align: left !important;
+  }
+
+  // Body content
   .blog-content {
     max-width: 780px;
     font-size: 1rem;
     color: #7a99b3;
     line-height: 1.75;
-    text-align: left !important;
 
     h1, h2 {
       color: #e8edf2;
@@ -281,8 +244,8 @@ blockquote {
       border-bottom: 1px solid #1e3048;
       margin-bottom: 1rem;
       line-height: 1.3;
-      text-align: left;
 
+      // Accent rule above h1/h2
       &::before {
         content: '';
         display: block;
@@ -299,13 +262,9 @@ blockquote {
       font-size: 1rem;
       padding-top: 1.25rem;
       margin-bottom: 0.5rem;
-      text-align: left;
     }
 
-    p {
-      margin-bottom: 1.25rem;
-      text-align: left;
-    }
+    p { margin-bottom: 1.25rem; }
 
     a { color: #3d7ab5; &:hover { color: #c5d5e4; } }
 
@@ -322,15 +281,10 @@ blockquote {
       margin: 1.5rem 0;
       color: #6a8aa5;
       font-style: normal;
-      text-align: left;
       p { margin-bottom: 0; }
     }
 
-    img {
-      border-radius: 0 !important;
-      max-width: 100%;
-      height: auto;
-    }
+    img { border-radius: 0 !important; }
   }
 }
 
@@ -359,5 +313,27 @@ blockquote {
 // ---------------------------------------------------------------------------
 
 .rounded25 { border-radius: 0 !important; }
+
 .section.video iframe { border-radius: 0; }
+
+.section.services .card img {
+  margin: auto;
+  border-radius: 0 !important;
+}
+
 div:has(iframe), video { width: 100%; }
+
+// ---------------------------------------------------------------------------
+// Enquiries button — mobile alignment
+// ---------------------------------------------------------------------------
+
+.nav-item-enquiries {
+  @media (max-width: 1199px) {
+    padding: 0.5rem 0 0.5rem 1.25rem;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    width: auto;
+  }
+}
