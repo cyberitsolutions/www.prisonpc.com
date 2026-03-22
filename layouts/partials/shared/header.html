@@ -18,7 +18,7 @@
       </ul>
       <ul class="navbar-nav ms-xl-3 mb-2 mb-xl-0">
         {{ range .Site.Menus.buttons }}
-          <li class="nav-item nav-item-enquiries ms-2 text-center">
+          <li class="nav-item nav-item-enquiries" style="text-align: center; padding: 0.5rem 0;">
             <a class="btn btn-primary px-4" href="{{ .URL }}">{{ .Name }}</a>
           </li>
         {{ end }}
