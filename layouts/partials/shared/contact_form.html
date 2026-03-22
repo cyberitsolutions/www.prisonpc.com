@@ -5,20 +5,21 @@
     </div>
     <div class="mb-3">
         <label for="email" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="email" name="email" placeholder="Email" aria-describedby="emailHelp" required />
-        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required />
     </div>
     <div class="mb-3">
         <label for="phone" class="col-sm-2 col-form-label">Phone</label>
-        <input type="tel" class="form-control" id="phone" placeholder="Phone" name="phone" aria-describedby="phoneHelp" required />
-        <div id="phoneHelp" class="form-text">We'll never share your phone number with anyone else.</div>
+        <input type="tel" class="form-control" id="phone" placeholder="Phone" name="phone" />
     </div>
     <div class="mb-3">
         <label for="message" class="form-label">Message</label>
         <textarea class="form-control" cols="40" rows="8" name="message" required></textarea>
     </div>
-    <button type="submit" class="btn btn-primary">Send</button>
-    <p class="text-center">
+    <div class="d-flex align-items-center gap-3 flex-wrap">
+        <button type="submit" class="btn btn-primary">Send</button>
+        <small style="color: #4d6e86;">Your details are secure and will not be shared.</small>
+    </div>
+    <p class="mt-3">
         <small>(Powered by <a rel="nofollow" target="_blank" href="https://un-static.com/">Un-static Forms</a>)</small>
     </p>
 </form>
