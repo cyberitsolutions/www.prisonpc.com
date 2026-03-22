@@ -1,0 +1,6 @@
+<p style="margin-top: 2rem;">
+{{- $sep := false -}}
+{{- with .Get "a" -}}<a href="{{ $.Get "a-url" }}" style="color: #3d7ab5;">{{ . }}</a>{{- $sep = true -}}{{- end -}}
+{{- with .Get "b" -}}{{- if $sep }} &middot; {{ end -}}<a href="{{ $.Get "b-url" }}" style="color: #3d7ab5;">{{ . }}</a>{{- $sep = true -}}{{- end -}}
+{{- with .Get "c" -}}{{- if $sep }} &middot; {{ end -}}<a href="{{ $.Get "c-url" }}" style="color: #3d7ab5;">{{ . }}</a>{{- end -}}
+</p>

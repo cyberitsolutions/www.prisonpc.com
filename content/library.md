@@ -18,7 +18,7 @@ The guide is structured around three core areas: the operational, financial, and
 
 It is intended to be prescriptive, not a theoretical overview, but a working reference that engineers and specifiers can apply directly to their jurisdiction and facility context.
 
-[Purchase on Amazon](https://www.amazon.com/Designing-Secure-Prisoner-Computer-Systems/dp/1326763830/) &nbsp;·&nbsp; [Download free PDF](/design-book.pdf)
+{{< cta a="Purchase on Amazon" a-url="https://www.amazon.com/Designing-Secure-Prisoner-Computer-Systems/dp/1326763830/" b="Download free PDF" b-url="/design-book.pdf" >}}
 
 *Ron Fabre & Con Zymaris. ISBN 978-1-326-76383-1.*
 
