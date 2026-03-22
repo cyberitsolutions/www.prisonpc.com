@@ -3,48 +3,39 @@ date: "2024-07-19T12:38:43+10:00"
 draft: false
 images:
 - images/business-drivers.webp
-title: Business Drivers
-description: PrisonPC securely delivers inmate education and training, numeracy and literacy programmes, instructional streaming media content, and tuition.
+title: The business case for PrisonPC
+description: "The operational, financial, and social arguments for deploying a purpose-built managed computing platform in a correctional facility."
 url: /business-drivers
 ---
 
-The financial and societal costs of prisoner recidivism are high and consequently reducing those costs are of equally high importance. Areas where recidivism is positively impacted are education and managed family/societal reintegration.
+Deploying computers in a correctional facility is not a trivial decision. The security risks are real, the operational implications are significant, and the investment requires justification. This page addresses the core arguments.
 
-PrisonPC was designed specifically as the optimal platform for securely delivering inmate education and training, offering the delivery of basic numeracy and literacy programmes, instructional content via streaming media, and tuition with hands-on business desktop applications.
+## Recidivism reduction
 
-PrisonPC helps inmates improve their chances in the world beyond the correctional facility.
+Reoffending imposes substantial costs on governments and communities — through reincarceration, ongoing criminal justice expenditure, and the broader social impact on victims and families. Reducing reoffending rates, even marginally, produces meaningful savings.
 
-## Recidivism
+Education is one of the most consistently effective interventions. Access to literacy, numeracy, vocational training, and computer skills improves an inmate's prospects of obtaining and holding employment after release. Computer literacy in particular is now a baseline requirement for almost all non-manual work.
 
-To reduce recidivism ex-offenders must have marketable job skills as they re-enter society. Providing offenders with good work-place skills makes them more attractive to employers and thereby increases their chances of obtaining and maintaining a job upon release. While basic numeracy and literacy skills lay the foundation for academic and vocational training, computer skills are necessary in almost all non-labouring jobs, thereby increasing their ability to obtain and maintain a place in the work-force post-release.
+Managed family contact during incarceration is also associated with lower reoffending rates. Structured, monitored email gives inmates a channel for maintaining those relationships in a way that is controlled, auditable, and practical for staff to manage.
 
-## Boredom Reduction
+## Operational efficiency
 
-Many prisons today provide multimedia facilities to inmates in the form of televisions, radios, stereos, gaming consoles, and similar devices. PrisonPC consolidates all these devices into a single unit, reducing the opportunity for inmates to hide contraband, and passes ultimate control to staff to apply automatic curfews to individual features or to revoke privileges.
+Managing inmate privileges through physical access to cells is time-consuming and carries inherent risk. PrisonPC allows staff to grant or revoke access to individual services (television, email, web, printing) remotely, without a cell visit. Curfews can be automated. Discipline can be applied passively. Alerts can be broadcast to individuals or groups from a central console.
 
-## Education
+The email filtering system handles the substantial majority of inmate correspondence automatically, with only flagged messages requiring staff attention. For facilities processing large volumes of inmate mail, this represents a significant reduction in manual review workload compared to postal correspondence.
 
-Most prisons today have programmes aimed at rehabilitating inmates by offering them a valuable education in preparation for their reintegration into society. Access to suitable educational material is becoming easier and more economical through computer-based resources, either hosted and delivered locally within the prison, or as online distance learning courses offered by universities around the world.
+Remote desktop monitoring and control allows staff to respond to many situations without physical intervention, reducing both the demand on staff time and exposure to potentially volatile situations.
 
-## Computer-Based Training
+## Rehabilitation and reintegration
 
-Whether teaching basic numeracy and literacy programmes, work-place re-entry, or advanced university degrees, computer-based training is now the norm for educators. PrisonPC was designed to deliver an optimal platform for inmate education and training offering the delivery of instructional content via streaming media, self-paced learning, and tuition through hands-on experience with business desktop applications.
+PrisonPC provides a structured environment for education delivery, from basic literacy and numeracy through to vocational programmes and university distance learning. Content can be delivered locally or accessed from approved external providers, with staff retaining full control over what is available to whom.
 
-PrisonPC helps inmates improve their chances in the world beyond the correctional facility.
+As inmates approach release, graduated access to approved websites and managed email supports the process of reintegration. Staff can incrementally expand an inmate's access in line with their rehabilitation progress, using the platform's privilege management tools.
 
-## Computer Skills
+## Risk reduction
 
-To reduce recidivism offenders must have marketable job skills before re-entering society. Providing offenders with good workplace skills will make them more attractive to employers and thereby increase their chances of obtaining and maintaining a job upon release. While basic numeracy and literacy skills lay the foundation for academic and vocational training, computer skills are necessary in almost all non-labouring jobs.
+A single consolidated device per cell replaces the collection of televisions, radios, gaming consoles, and other appliances that would otherwise need to be individually secured. Fewer devices means fewer opportunities for contraband concealment, fewer cables as potential ligatures or weapons, and a simpler physical security environment.
 
-PrisonPC succeeds in resolving the security issues relating to inmate computer use whilst providing the functionality required by education providers and correctional facilities.
+All inmate activity on the platform is logged. Printed documents are watermarked and archived. Email is filtered and retained. USB and removable media are blocked. The result is a comprehensive audit trail that supports both routine monitoring and retrospective investigation.
 
-## Benefits
-
-A secure Prisoner Interactive Learning System can deliver numerous immediate benefits to a correctional facility and to prisoners in addition to the longer-term benefits of recidivism reduction. These benefits include the consolidation of the various entertainment appliances into a single managed and secure device, reduction in boredom through the delivery of broader entertainment options to prisoners, and distance education opportunities.
-
-To ensure these benefits are realised special attention and diligence is necessary in the design and delivery of your secure in-cell interactive technology solution.
-
-> "As advanced technologies are integrated into other areas of correctional facility life (e.g., family communications via e-mail and video conferencing, and access to health and treatment services via telemedicine), a growing number of corrections agencies and facilities and their education partners are exploring ways to securely and cost-effectively increase access to educational technology."
->
-> -- [Educational Technology in Corrections 2015](http://www2.ed.gov/about/offices/list/ovae/pi/AdultEd/policybriefedtech.pdf)
-U.S. Department of Education
+For facilities considering PrisonPC, the reference guide [Designing Secure Prisoner Computer Systems](/library) provides a detailed treatment of the risk landscape and the reasoning behind each mitigation.
