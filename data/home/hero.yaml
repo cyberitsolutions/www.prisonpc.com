@@ -6,7 +6,7 @@ content:
   title: "Built for security."
   subtitle: "Designed for rehabilitation."
   text: "PrisonPC is a purpose-built managed computing platform for correctional facilities — consolidating IPTV, education, email, and device management into a single hardened solution."
-  image: "images/ppc_in_cell_dark.webp"
+  image: "images/why-consolidated-header.webp"
 
   buttonPrimary:
     label: "View full solution"

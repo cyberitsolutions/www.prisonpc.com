@@ -5,7 +5,7 @@ title: Why a consolidated platform
 description: "PrisonPC provides IPTV, secure email, managed computers, and more — as a single consolidated platform purpose-built for the correctional environment."
 url: /why-consolidated
 images:
-- images/ppc_in_cell_dark.webp
+- images/why-consolidated-header.webp
 ---
 
 If you arrived here looking for a specific capability, IPTV for inmate cells, a secure email system, or managed computers for education, you are in the right place. PrisonPC provides all of these. But before you evaluate any of them in isolation, it is worth spending a few minutes understanding why each presents challenges that a standalone solution tends to underestimate.
