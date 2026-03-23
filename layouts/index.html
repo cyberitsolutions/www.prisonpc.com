@@ -1,6 +1,7 @@
 {{ define "main" }}
   {{ with .Site.Data.home.hero }}{{ if .enabled }}{{ partial "sections/hero.html" . }}{{ end }}{{ end }}
   {{ with .Site.Data.home.fork }}{{ if .enabled }}{{ partial "sections/fork.html" . }}{{ end }}{{ end }}
+  {{ with .Site.Data.home.video }}{{ if .enabled }}{{ partial "sections/video.html" . }}{{ end }}{{ end }}
   {{ with .Site.Data.home.services }}{{ if .enabled }}{{ partial "sections/services.html" . }}{{ end }}{{ end }}
   {{ with .Site.Data.home.testimonials }}{{ if .enabled }}{{ partial "sections/testimonials.html" . }}{{ end }}{{ end }}
   {{ with .Site.Data.home.contact_form }}{{ if .enabled }}{{ partial "sections/contact_form.html" . }}{{ end }}{{ end }}

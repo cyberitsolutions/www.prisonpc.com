@@ -2,6 +2,6 @@ enabled: true
 id: "video"
 
 content:
-  title: "PrisonPC Introduction"
-  text: ""
-  video: "{{< youtube 8VOYS1jJ8a8 >}}"
+  text: "New to PrisonPC?"
+  label: "Watch a brief introduction to the platform"
+  url: "/overview"
