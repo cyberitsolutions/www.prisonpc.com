@@ -14,7 +14,7 @@ images:
 
 Written by Ron Fabre and Con Zymaris, founders of PrisonPC, the guide draws on direct experience designing and deploying Prisoner Interactive Learning Systems across Australian correctional facilities.
 
-The guide is structured around three core areas: the operational, financial, and human rights case for managed inmate computer access; practical design considerations including the challenges of retrofitting existing facilities; and a detailed treatment of 25 distinct security risks specific to the correctional computing environment, each with the rationale behind the recommended mitigation.
+The guide is structured around three core areas: the operational, financial, and human rights case for managed inmate computer access; practical design considerations including the challenges of retrofitting existing facilities; and a detailed treatment of security risks specific to the correctional computing environment, each with the rationale behind the recommended mitigation.
 
 It is intended to be prescriptive, not a theoretical overview, but a working reference that engineers and specifiers can apply directly to their jurisdiction and facility context.
 
