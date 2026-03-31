@@ -4,6 +4,8 @@ draft: false
 title: Library
 description: "Reference material on the design, security, and deployment of Prisoner Interactive Learning Systems."
 url: /library
+aliases:
+  - /documents
 images:
 - images/library-header.webp
 ---
