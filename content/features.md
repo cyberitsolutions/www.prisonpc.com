@@ -46,7 +46,7 @@ PrisonPC runs applications on the local desktop hardware while preventing inmate
 
 Free-to-air television and radio content is distributed to inmate desktops, with staff able to block specific programmes or channels that conflict with facility policy. Content can also be cached and time-shifted for scheduled delivery.
 
-## Closed-circuit channels
+**Closed-circuit channels**
 
 Facilities can broadcast video and audio on internal channels accessible to all or selected inmates. Typical uses include educational content, induction material, time-shifted free-to-air programming, and religious services. Internal channels are particularly valuable in facilities where inmates of minority religions might otherwise face intolerance in communal viewing settings.
 
@@ -58,7 +58,7 @@ Facilities can broadcast video and audio on internal channels accessible to all 
 
 ---
 
-## Media restrictions
+**Media restrictions**
 
 Where desktops are equipped with optical drives, inmates can access audio CDs and video DVDs that have been explicitly approved by staff. Unapproved optical media is rejected automatically. All USB storage devices are blocked regardless of content.
 
@@ -68,19 +68,19 @@ Staff are encouraged to use internal IPTV channels for media distribution where 
 
 # Filtered web and email
 
-## Email
+**Email**
 
 The PrisonPC email service gives staff individual control over each inmate's correspondence. Each inmate has their own approved addressee list, which staff can configure independently. Addresses can be designated as privileged (delivered without staff review, such as legal representatives) or trusted (with attachments permitted, such as education providers). All other correspondence is subject to deep content filtering.
 
-Each message — inbound and outbound — passes through the filtering mechanism before delivery. Messages that fail the filter are automatically quarantined for staff review; staff can approve or reject them before delivery.
+Each message, both inbound and outbound, passes through the filtering mechanism before delivery. Messages caught by the filters are automatically quarantined for staff review; staff can approve or reject them before delivery.
 
 The filtering mechanism handles the substantial majority of correspondence automatically. All non-privileged correspondence is archived regardless of filter outcome, giving staff full visibility of inmate communications at any time — not just those flagged for attention.
 
 Managed email also significantly reduces the volume of postal mail that staff must manually review.
 
-## Web access
+**Web access**
 
-Inmates can be selectively granted access to a limited list of approved websites, such as distance education providers or legal resources. Attempts to access unapproved sites are blocked and logged.
+Inmates can be selectively granted access to a limited list of approved websites, such as distance education providers or legal resources, while unwelcome functionality (e.g., reader feedback, advertisements, embedded videos) can be be denied. Attempts to access unapproved sites are blocked and logged.
 
 ---
 
