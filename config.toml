@@ -7,7 +7,7 @@ summaryLength = 10
 
 [services]
   [services.googleAnalytics]
-    ID = 'G-8D83KW6F5T'
+    ID = 'G-279D45KCLF'
 
 [params]
 title = "PrisonPC"
