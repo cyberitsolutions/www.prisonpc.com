@@ -9,6 +9,8 @@ images:
 -
 ---
 
+> The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
+
 ## Mandatory requirements
 
 1. 20cm (8") to 25cm (10") display. No particular size in this range is consistently preferred; each facility may have their own preference.
