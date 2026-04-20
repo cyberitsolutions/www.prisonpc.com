@@ -25,9 +25,9 @@ images:
 10. No cellular modem.
 11. 2G or more RAM.
 12. 2G or more storage.
-13. Should support the latest release of Google Android (includes GMS) or Google Android Go, although v10 or later is acceptable. Earlier versions are not currently supported by PrisonPC. Note that some vendors offer Android versions as old as v6 for correctional deployments; these are not suitable.
-14. Must support [Android Enterprise Enrolment](https://www.android.com/intl/en_au/enterprise/enrollment/).
-15. Must support [Factory Reset Protection](https://www.samsung.com/nz/support/mobile-devices/what-is-google-frp/).
+13. SHOULD support the latest release of Google Android (includes GMS) or Google Android Go, although v10 or later is acceptable. Earlier versions are not currently supported by PrisonPC. Note that some vendors offer Android versions as old as v6 for correctional deployments; these are not suitable.
+14. MUST support [Android Enterprise Enrolment](https://www.android.com/intl/en_au/enterprise/enrollment/).
+15. MUST support [Factory Reset Protection](https://www.samsung.com/nz/support/mobile-devices/what-is-google-frp/).
 
 ## Valuable (non-mandatory) features
 
@@ -40,5 +40,5 @@ images:
 7. [Zero-touch enrolment](https://support.google.com/work/android/answer/7514005?hl=en) may be valuable for some correctional facilities, especially those deploying a considerable number of tablets.
 8. [Android Verified Boot](https://source.android.com/security/verifiedboot) (AVB is common in the majority of COTS tablet devices).
 
-- AVB implementation must include [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
-- Must not boot if AVB verification fails at boot time.
+- AVB implementation MUST include [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+- MUST NOT boot if AVB verification fails at boot time.
