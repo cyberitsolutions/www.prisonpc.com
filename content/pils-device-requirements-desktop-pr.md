@@ -20,14 +20,6 @@ The following requirements cover both hardware and firmware. PrisonPC supports b
 1. CPU MUST be x86-64 (i.e., not ARM), and MAY be low-end/low-speed.
 1. MUST include 8G+ RAM.
 1. UEFI SHOULD be used for new hardware purchases
-   1. Firmware configuration screens MUST be disabled. It is acceptable for the firmware to display read-only information such as date, time, and MAC address, but users MUST NOT be able to edit any firmware values.
-   1. Firmware password protection MUST be disabled. Note that common password protection is insufficient to satisfy the previous requirement.
-   1. The device MUST boot from PXE (netboot) only.
-   1. Boot from internal storage (HDD, SSD, etc) and removable media (USB, CD/DVD, etc) MUST be disabled under all circumstances.
-   1. WoL (Wake-on-LAN) MUST be enabled.
-   1. Any firmware factory default, optimised default, or similar reset condition MUST conform to these requirements, to ensure users cannot reset to insecure settings.
-   1. Firmware MUST NOT permit updates to be applied via removable media. Firmware updates MAY be applied by PrisonPC over the network via PXE (netboot).
-1. Legacy BIOS MAY be used where budget or hardware constraints apply
    1. CSM ("legacy BIOS mode") MUST be removed/disabled.
    1. Secure Boot MUST be enabled.
    1. The only secure boot "PK" key SHOULD be the certificate provided by PrisonPC.
@@ -43,6 +35,14 @@ The following requirements cover both hardware and firmware. PrisonPC supports b
    1. The UEFI config (e.g. "hit F2/Del during boot") MUST NOT allow the end user to change or bypass any of the above-mentioned settings in any way.
    1. Triggering a factory reset condition MUST NOT allow the end user to change or bypass any of the above-mentioned settings in any way, e.g. by opening the case and shorting a jumper, or by toggling the power switch in quick succession thus triggering a hardware reset.
    1. Network boot MUST be possible (e.g. DHCPv4 + TFTP, or DHCPv4 + HTTP).
+1. Legacy BIOS MAY be used where budget or hardware constraints apply
+   1. Firmware configuration screens MUST be disabled. It is acceptable for the firmware to display read-only information such as date, time, and MAC address, but users MUST NOT be able to edit any firmware values.
+   1. Firmware password protection MUST be disabled. Note that common password protection is insufficient to satisfy the previous requirement.
+   1. The device MUST boot from PXE (netboot) only.
+   1. Boot from internal storage (HDD, SSD, etc) and removable media (USB, CD/DVD, etc) MUST be disabled under all circumstances.
+   1. WoL (Wake-on-LAN) MUST be enabled.
+   1. Any firmware factory default, optimised default, or similar reset condition MUST conform to these requirements, to ensure users cannot reset to insecure settings.
+   1. Firmware MUST NOT permit updates to be applied via removable media. Firmware updates MAY be applied by PrisonPC over the network via PXE (netboot).
 
 # Correctional Facility Requirements
 
