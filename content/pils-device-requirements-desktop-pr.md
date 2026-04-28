@@ -10,8 +10,6 @@ images:
 
 # PrisonPC Requirements
 
-
-
 The following requirements cover both hardware and firmware. PrisonPC supports both Legacy BIOS and UEFI firmware, allowing deployment on older or recycled hardware that may not include full UEFI support. UEFI with Secure Boot is strongly preferred for new hardware purchases, however the firmware requirements below apply to whichever firmware mode the device supports. For UEFI devices, the intent is to ensure the PILS desktop will boot operating systems signed exclusively by PrisonPC (not by Microsoft or similar), and that an attacker or end-user with physical access cannot undermine this (e.g. by disabling Secure Boot or triggering a factory reset of the UEFI settings).
 
 > The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
