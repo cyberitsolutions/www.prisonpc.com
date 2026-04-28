@@ -16,7 +16,8 @@ The following requirements cover both hardware and firmware. PrisonPC supports b
 
 1. SHOULD include Intel NIC and Intel GPU, as these are most compatible with PrisonPC.
 1. MUST include GigE speed NIC.
-1. NIC MUST support PXE (netboot) and WOL (Wake-on-LAN).
+1. NIC MUST support PXE (netboot)
+1. NIC SHOULD support WOL (Wake-on-LAN).
 1. CPU MUST be x86-64 (i.e., not ARM), and MAY be low-end/low-speed.
 1. MUST include 8G+ RAM.
 1. UEFI SHOULD be used for new hardware purchases
@@ -40,7 +41,7 @@ The following requirements cover both hardware and firmware. PrisonPC supports b
    1. Firmware password protection MUST be disabled. Note that common password protection is insufficient to satisfy the previous requirement.
    1. The device MUST boot from PXE (netboot) only.
    1. Boot from internal storage (HDD, SSD, etc) and removable media (USB, CD/DVD, etc) MUST be disabled under all circumstances.
-   1. WoL (Wake-on-LAN) MUST be enabled.
+   1. WoL (Wake-on-LAN) SHOULD be enabled.
    1. Any firmware factory default, optimised default, or similar reset condition MUST conform to these requirements, to ensure users cannot reset to insecure settings.
    1. Firmware MUST NOT permit updates to be applied via removable media. Firmware updates MAY be applied by PrisonPC over the network via PXE (netboot).
 
