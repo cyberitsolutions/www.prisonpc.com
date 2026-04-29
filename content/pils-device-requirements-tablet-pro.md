@@ -16,7 +16,7 @@ The following requirements cover platform and manageability. PrisonPC deploys an
 > The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
 
 1. MUST include 2G or more RAM.
-1. MUST include 2G or more storage.
+1. MUST include 16G or more storage.
 1. MUST support the latest LTS release of Google Chrome OS.
 1. MUST support [Chrome Enterprise Enrolment](https://support.google.com/chrome/a/answer/1360534).
 1. MUST support [Factory Reset Protection](https://support.google.com/work/android/answer/14549362).
@@ -35,7 +35,8 @@ PrisonPC has observed, across many correctional facility deployments, that procu
 1. Chassis secured to ensure inmates cannot hide physical contraband, perhaps with [Tamper-Resistant Torx (also known as Torx TR) or pin-in Torx](https://en.wikipedia.org/wiki/Torx).
 1. Internal speakers.
 1. 3.5mm [TRS stereo jack and TS mic, or combined TRRS audio jack](https://en.wikipedia.org/wiki/Phone_connector_(audio)).
-1. Front camera. A rear camera is not necessary, although inclusion of one is acceptable.
+1. Front camera. A rear camera is not necessary, although inclusion of one is likely fine.
+1. Internal microphone where facilities intend to use the tablets for communication (e.g., family, legal, or counselling services).
 1. No TV receiver.
 1. No FM receiver.
 1. No cellular modem.
