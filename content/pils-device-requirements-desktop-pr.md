@@ -33,9 +33,8 @@ The following requirements cover both hardware and firmware. PrisonPC supports b
    1. The secure boot "dbx" keyring MAY include some/all of these certificates:
       - <https://gitlab.com/kraxel/virt-firmware/-/tree/v24.2/virt/firmware/certs>
       - <https://gitlab.com/kraxel/virt-firmware/-/tree/master/virt/firmware/certs>
-   1. The UEFI config (e.g. "hit F2/Del during boot") MUST NOT allow the end user to change or bypass any of the above-mentioned settings in any way.
-   1. Triggering a factory reset condition MUST NOT allow the end user to change or bypass any of the above-mentioned settings in any way, e.g. by opening the case and shorting a jumper, or by toggling the power switch in quick succession thus triggering a hardware reset.
    1. Network boot MUST be possible (e.g. DHCPv4 + TFTP, or DHCPv4 + HTTP).
+   1. The end user MUST NOT be able to change or bypass any of the above-mentioned settings under any circumstances, whether via the UEFI config interface (e.g. "hit F2/Del during boot") or via any factory reset, or similar function (e.g. opening the case and shorting a jumper, or toggling the power switch in quick succession to trigger a hardware reset). This restriction MUST hold even when the end user has physical access to the device.
 1. Legacy BIOS MAY be used where budget or hardware constraints apply
    1. Firmware configuration screens MUST be disabled. It is acceptable for the firmware to display read-only information such as date, time, and MAC address, but users MUST NOT be able to edit any firmware values.
    1. Firmware password protection MUST be disabled. Note that common password protection is insufficient to satisfy the previous requirement.
